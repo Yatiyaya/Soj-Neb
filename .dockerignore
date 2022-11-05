@@ -1,0 +1,16 @@
+.git
+!.git/HEAD
+!.git/logs/HEAD
+scavstation.dmb
+scavstation.rsc
+scavstation.dyn.rsc
+scavstation.dyn.rsc.lk
+scavstation.int
+libmysql.dll
+.dockerignore
+Dockerfile
+.editorconfig
+.gitattributes
+.gitignore
+.github
+sql
