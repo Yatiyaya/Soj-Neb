@@ -703,11 +703,11 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/hallway/side/f2section1)
 "abR" = (
-/obj/structure/bed/chair/sofa/brown/right,
+/obj/structure/bed/sofa/r/brown,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cro)
 "abS" = (
-/obj/structure/bed/chair/sofa/brown/left,
+/obj/structure/bed/sofa/l/brown,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cro)
 "abT" = (
@@ -4704,7 +4704,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/substation/section1)
 "akm" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /obj/machinery/camera/network/cev_eris{
@@ -7050,7 +7050,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/gmaster)
 "apc" = (
-/obj/structure/bed/chair/sofa/brown/left,
+/obj/structure/bed/sofa/l/brown,
 /obj/structure/disposalpipe/segment,
 /mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/wood,
@@ -20086,7 +20086,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/wood,
 /area/nadezhda/crew_quarters/cafeteria)
 "aTx" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/machinery/holoposter{
@@ -20095,7 +20095,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aTy" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aTz" = (
@@ -20412,7 +20412,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "aUm" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -20441,7 +20441,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aUp" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -20449,12 +20449,12 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aUq" = (
-/obj/structure/bed/chair/sofa/teal,
+/obj/structure/bed/sofa/m/teal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aUr" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
@@ -20509,7 +20509,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aUz" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -20617,7 +20617,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aUS" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -23009,7 +23009,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cbo)
 "bbQ" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /mob/living/simple_animal/cat/fluff/Runtime,
@@ -23028,7 +23028,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/medical/morgue)
 "bbT" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -28345,7 +28345,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/armory)
 "bqg" = (
-/obj/structure/bed/chair/sofa/teal{
+/obj/structure/bed/sofa/m/teal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -32291,7 +32291,7 @@ obj/item/chems/drinks/dry_ramen,
 /obj/machinery/holoposter{
 	pixel_x = -32
 	},
-/obj/structure/bed/chair/sofa/blue/left{
+/obj/structure/bed/sofa/l/blue{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -35469,7 +35469,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "fWM" = (
-/obj/structure/bed/chair/sofa/blue/right{
+/obj/structure/bed/sofa/r/blue{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -37783,7 +37783,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos)
 "hxO" = (
-/obj/structure/bed/chair/sofa/teal,
+/obj/structure/bed/sofa/m/teal,
 /obj/machinery/light{
 	dir = 1;
 	light_color = "#0892d0"
@@ -41058,7 +41058,7 @@ obj/item/chems/drinks/dry_ramen,
 /obj/machinery/camera/network/cev_eris{
 	dir = 4
 	},
-/obj/structure/bed/chair/sofa/blue{
+/obj/structure/bed/sofa/m/blue{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -43373,7 +43373,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/crew_quarters/cafeteria)
 "lsR" = (
-/obj/structure/bed/chair/sofa/brown/right,
+/obj/structure/bed/sofa/r/brown,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/gmaster)
 "lti" = (
@@ -48525,7 +48525,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/danger,
 /area/nadezhda/command/tcommsat/computer)
 "oFi" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -54873,7 +54873,7 @@ obj/item/chems/drinks/dry_ramen,
 /obj/machinery/alarm{
 	pixel_y = 23
 	},
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/crew_quarters/cafeteria)

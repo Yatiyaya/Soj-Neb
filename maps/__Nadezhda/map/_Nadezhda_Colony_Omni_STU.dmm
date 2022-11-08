@@ -1886,7 +1886,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "ath" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_left"
 	},
 /turf/simulated/floor/wood,
@@ -3782,7 +3782,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/quartermaster/miningdock)
 "aMR" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/bcarpet,
@@ -4385,7 +4385,7 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/bridge)
 "aSo" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofamiddle"
 	},
@@ -5916,7 +5916,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "bhA" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 4;
 	icon_state = "sofaend_right"
 	},
@@ -8265,7 +8265,7 @@
 	name = "\improper Upper Research Hallway"
 	})
 "bFc" = (
-/obj/structure/bed/chair/sofa/black/right,
+/obj/structure/bed/sofa/r/black,
 /mob/living/simple_animal/cat/fluff/Runtime,
 /obj/machinery/light{
 	dir = 1
@@ -9221,7 +9221,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bPm" = (
-/obj/structure/bed/chair/sofa/brown/right,
+/obj/structure/bed/sofa/r/brown,
 /obj/landmark/join/start/acolyte,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -14678,7 +14678,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "cSa" = (
 /obj/structure/railing/grey,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofaend_left"
 	},
@@ -22140,7 +22140,7 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/nadezhda/crew_quarters/cafeteria)
 "eof" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -22977,7 +22977,7 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/nadezhda/crew_quarters/janitor)
 "ewa" = (
-/obj/structure/bed/chair/sofa/brown/left,
+/obj/structure/bed/sofa/l/brown,
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
@@ -26986,7 +26986,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security/armoryshop)
 "fjb" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "fjd" = (
@@ -29855,7 +29855,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/security/barracks)
 "fIP" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 4
 	},
 /obj/machinery/newscaster{
@@ -30439,7 +30439,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 8
 	},
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -30674,7 +30674,7 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/nadezhda/security/tactical_blackshield)
 "fQP" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -36707,7 +36707,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/dungeon/outside/abandoned_solars)
 "gWQ" = (
-/obj/structure/bed/chair/sofa/beige/right,
+/obj/structure/bed/sofa/r/beige,
 /obj/item/radio/intercom{
 	dir = 2;
 	pixel_y = 24
@@ -36995,7 +36995,7 @@
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "gYJ" = (
-/obj/structure/bed/chair/sofa/black/left,
+/obj/structure/bed/sofa/l/black,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "gYK" = (
@@ -40275,7 +40275,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/lab)
 "hIO" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /obj/item/modular_computer/telescreen/preset/generic{
@@ -42684,7 +42684,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/miningdock)
 "igM" = (
-/obj/structure/bed/chair/sofa/black{
+/obj/structure/bed/sofa/m/black{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/bcarpet,
@@ -43599,7 +43599,7 @@
 	dir = 10;
 	icon_state = "spline_fancy"
 	},
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofamiddle"
 	},
 /turf/simulated/floor/carpet,
@@ -47223,7 +47223,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/meadow)
 "iZl" = (
-/obj/structure/bed/chair/sofa/teal,
+/obj/structure/bed/sofa/m/teal,
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
@@ -47530,7 +47530,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "jcf" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 8;
 	icon_state = "sofaend_right"
 	},
@@ -54008,7 +54008,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/command/courtroom)
 "klP" = (
-/obj/structure/bed/chair/sofa/blue/right{
+/obj/structure/bed/sofa/r/blue{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
@@ -56301,7 +56301,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/beige/right{
+/obj/structure/bed/sofa/r/beige{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -57250,7 +57250,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/bed/chair/sofa/beige/right{
+/obj/structure/bed/sofa/r/beige{
 	dir = 4
 	},
 /obj/machinery/camera/network/colony_transition{
@@ -57506,7 +57506,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/nadezhda/quartermaster/miningdock)
 "kSs" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_right"
 	},
 /turf/simulated/floor/wood,
@@ -57571,7 +57571,7 @@
 	name = "\improper Upper Research Hallway"
 	})
 "kSH" = (
-/obj/structure/bed/chair/sofa/blue/left{
+/obj/structure/bed/sofa/l/blue{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
@@ -58954,7 +58954,7 @@
 /turf/simulated/floor/plating,
 /area/nadezhda/outside/lakeside)
 "leC" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 4;
 	icon_state = "sofamiddle"
 	},
@@ -59053,7 +59053,7 @@
 /turf/simulated/floor/asteroid/grass/dry,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "lfc" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -59223,7 +59223,7 @@
 /turf/simulated/floor/asteroid,
 /area/nadezhda/engineering/construction)
 "lhy" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -59938,7 +59938,7 @@
 /obj/effect/floor_decal/industrial/warningred{
 	dir = 4
 	},
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood/wild3,
@@ -60123,7 +60123,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/crew_quarters/sleep/cryo2)
 "lpQ" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 4
 	},
 /obj/item/radio/intercom{
@@ -61095,7 +61095,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "lzH" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 4
 	},
 /obj/item/radio/intercom{
@@ -61288,7 +61288,7 @@
 	icon_state = "spline_fancy"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_right"
 	},
 /obj/machinery/floor_light,
@@ -61512,7 +61512,7 @@
 /area/nadezhda/medical/genetics)
 "lDd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofaend_left"
 	},
@@ -62291,7 +62291,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "lLq" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
@@ -64350,7 +64350,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 4;
 	icon_state = "sofamiddle"
 	},
@@ -64480,7 +64480,7 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/engineering/atmos)
 "mfO" = (
-/obj/structure/bed/chair/sofa/black/left,
+/obj/structure/bed/sofa/l/black,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cbo)
 "mfT" = (
@@ -65710,7 +65710,7 @@
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/storage)
 "mqA" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /obj/machinery/newscaster{
@@ -69551,7 +69551,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/botanist)
 "nbr" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /obj/item/radio/intercom{
@@ -71452,7 +71452,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/bed/chair/sofa/black/corner,
+/obj/structure/bed/sofa/m/black/corner,
 /turf/simulated/floor/wood,
 /area/nadezhda/crew_quarters/cafeteria)
 "nuH" = (
@@ -72389,7 +72389,7 @@
 /turf/simulated/wall/r_wall,
 /area/nadezhda/command/tcommsat/computer)
 "nEb" = (
-/obj/structure/bed/chair/sofa/black{
+/obj/structure/bed/sofa/m/black{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/bcarpet,
@@ -73020,7 +73020,7 @@
 /area/nadezhda/command/bridgebar)
 "nJY" = (
 /obj/structure/railing/grey,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofaend_right"
 	},
@@ -75159,7 +75159,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/bed/chair/sofa/beige/left{
+/obj/structure/bed/sofa/l/beige{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -75595,11 +75595,11 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/command/teleporter)
 "ohw" = (
-/obj/structure/bed/chair/sofa/brown/right,
+/obj/structure/bed/sofa/r/brown,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/gmaster)
 "ohA" = (
-/obj/structure/bed/chair/sofa/brown/left,
+/obj/structure/bed/sofa/l/brown,
 /mob/living/simple_animal/parrot/Poly,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/gmaster)
@@ -75720,7 +75720,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "oiY" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment{
@@ -77228,7 +77228,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/docking)
 "oxw" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -77627,7 +77627,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/command/bridge)
 "oAK" = (
-/obj/structure/bed/chair/sofa/black,
+/obj/structure/bed/sofa/m/black,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "oAW" = (
@@ -78921,7 +78921,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/miningdock)
 "oMM" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood/wild3,
@@ -80370,7 +80370,7 @@
 /turf/simulated/floor/wood/wild3,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "pdU" = (
-/obj/structure/bed/chair/sofa/teal{
+/obj/structure/bed/sofa/m/teal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -80522,7 +80522,7 @@
 /turf/simulated/floor/carpet/sblucarpet,
 /area/nadezhda/medical/sleeper)
 "peU" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 4;
 	icon_state = "sofaend_left"
 	},
@@ -80819,7 +80819,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/medical/genetics)
 "phi" = (
-/obj/structure/bed/chair/sofa/teal,
+/obj/structure/bed/sofa/m/teal,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spider/stickyweb,
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -82893,7 +82893,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/pros/shuttle)
 "pCL" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -83304,7 +83304,7 @@
 /area/nadezhda/quartermaster/miningdock)
 "pGh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_right"
 	},
 /turf/simulated/floor/wood,
@@ -83833,7 +83833,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/quartermaster/office)
 "pKS" = (
-/obj/structure/bed/chair/sofa/black/right,
+/obj/structure/bed/sofa/r/black,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "pKW" = (
@@ -91000,7 +91000,7 @@
 	name = "Militia Commander RC";
 	pixel_x = 30
 	},
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -92009,7 +92009,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/security/barracks)
 "rkS" = (
-/obj/structure/bed/chair/sofa/beige/left,
+/obj/structure/bed/sofa/l/beige,
 /obj/structure/closet/hydrant{
 	pixel_y = 32
 	},
@@ -94414,7 +94414,7 @@
 /turf/simulated/floor/carpet,
 /area/nadezhda/command/crematorium)
 "rGT" = (
-/obj/structure/bed/chair/sofa/teal{
+/obj/structure/bed/sofa/m/teal{
 	dir = 4
 	},
 /obj/machinery/holoposter{
@@ -94481,7 +94481,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "rHD" = (
-/obj/structure/bed/chair/sofa/brown/left,
+/obj/structure/bed/sofa/l/brown,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
@@ -95683,7 +95683,7 @@
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "rTl" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -96313,7 +96313,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "rYI" = (
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /obj/machinery/newscaster{
@@ -97028,7 +97028,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/structure/bed/chair/sofa/black{
+/obj/structure/bed/sofa/m/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -97227,7 +97227,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "shC" = (
-/obj/structure/bed/chair/sofa/brown/right,
+/obj/structure/bed/sofa/r/brown,
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cro)
 "shE" = (
@@ -97671,7 +97671,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
@@ -98070,7 +98070,7 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "spS" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofaend_right"
 	},
@@ -98181,7 +98181,7 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/rnd/xenobiology)
 "src" = (
-/obj/structure/bed/chair/sofa/teal,
+/obj/structure/bed/sofa/m/teal,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -98485,7 +98485,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_room)
 "suw" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 1;
 	icon_state = "sofaend_left"
 	},
@@ -98716,7 +98716,7 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/command/tcommsat/computer)
 "swx" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 8;
 	icon_state = "sofaend_left"
 	},
@@ -100206,7 +100206,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 4
 	},
 /turf/simulated/floor/wood/wild3,
@@ -102081,7 +102081,7 @@
 	dir = 4;
 	icon_state = "pipe-j1"
 	},
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_left"
 	},
 /turf/simulated/floor/wood/wild3,
@@ -104754,7 +104754,7 @@
 	icon_state = "spline_fancy"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofaend_left"
 	},
 /obj/structure/railing/grey{
@@ -106761,7 +106761,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "uaN" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /obj/structure/noticeboard/church{
@@ -107322,7 +107322,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/bed/chair/sofa/black/right{
+/obj/structure/bed/sofa/r/black{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
@@ -107491,7 +107491,7 @@
 /obj/structure/noticeboard/lonestar_supply{
 	pixel_x = 32
 	},
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
@@ -109171,7 +109171,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/command/merchant)
 "uzc" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/machinery/holoposter{
@@ -110395,7 +110395,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/command/courtroom)
 "uJb" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 8;
 	icon_state = "sofaend_left"
 	},
@@ -110958,7 +110958,7 @@
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "uOV" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spider/stickyweb,
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -111270,7 +111270,7 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/absolutism/skyyard)
 "uSk" = (
-/obj/structure/bed/chair/sofa/teal/corner{
+/obj/structure/bed/sofa/m/teal/corner{
 	dir = 1
 	},
 /obj/machinery/holoposter{
@@ -111335,7 +111335,7 @@
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/skyyard)
 "uSS" = (
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 4
 	},
 /obj/machinery/newscaster{
@@ -111455,7 +111455,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "uTA" = (
-/obj/structure/bed/chair/sofa/teal/right{
+/obj/structure/bed/sofa/r/teal{
 	dir = 4
 	},
 /obj/machinery/power/wall_obelisk{
@@ -112986,7 +112986,7 @@
 	name = "\improper Upper Research Hallway"
 	})
 "vjc" = (
-/obj/structure/bed/chair/sofa/black/right,
+/obj/structure/bed/sofa/r/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "vjd" = (
@@ -113712,7 +113712,7 @@
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
-/obj/structure/bed/chair/sofa/beige/left{
+/obj/structure/bed/sofa/l/beige{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/sblucarpet,
@@ -114219,7 +114219,7 @@
 	dir = 6;
 	icon_state = "spline_fancy"
 	},
-/obj/structure/bed/chair/sofa/black/corner,
+/obj/structure/bed/sofa/m/black/corner,
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 28
@@ -116229,7 +116229,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "vNv" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	icon_state = "sofamiddle"
 	},
 /obj/structure/disposalpipe/segment{
@@ -116971,7 +116971,7 @@
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "vUi" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/sofa/black,
+/obj/structure/bed/sofa/m/black,
 /turf/simulated/floor/wood,
 /area/nadezhda/crew_quarters/cafeteria)
 "vUl" = (
@@ -118531,7 +118531,7 @@
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "wjn" = (
-/obj/structure/bed/chair/sofa/teal/left,
+/obj/structure/bed/sofa/l/teal,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/network/colony_underground,
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -118784,7 +118784,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/bed/chair/sofa/black/left{
+/obj/structure/bed/sofa/l/black{
 	dir = 8
 	},
 /obj/machinery/camera/network/colony_underground{
@@ -121492,7 +121492,7 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/panic_room)
 "wJF" = (
-/obj/structure/bed/chair/sofa/black/corner{
+/obj/structure/bed/sofa/m/black/corner{
 	dir = 8;
 	icon_state = "sofamiddle"
 	},
@@ -121702,7 +121702,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "wME" = (
-/obj/structure/bed/chair/sofa/black,
+/obj/structure/bed/sofa/m/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wMH" = (
@@ -125060,7 +125060,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/hallway/surface/section1)
 "xut" = (
-/obj/structure/bed/chair/sofa/black/corner,
+/obj/structure/bed/sofa/m/black/corner,
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "xuw" = (
