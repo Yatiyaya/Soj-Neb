@@ -97,7 +97,7 @@ var/global/list/image/splatter_cache=list()
 	var/obj/item/organ/external/l_foot = GET_EXTERNAL_ORGAN(perp, BP_L_FOOT)
 	var/obj/item/organ/external/r_foot = GET_EXTERNAL_ORGAN(perp, BP_R_FOOT)
 	var/hasfeet = l_foot && r_foot
-	
+
 	var/transferred_data = blood_data ? blood_data[pick(blood_data)] : null
 	if(perp.shoes && !perp.buckled)//Adding blood to shoes
 		var/obj/item/clothing/shoes/S = perp.shoes
@@ -265,6 +265,7 @@ var/global/list/image/splatter_cache=list()
 	. = ..()
 	spawn(DRYING_TIME * 2)
 		dry=1
+
 
 #undef BLOOD_SIZE_SMALL
 #undef BLOOD_SIZE_MEDIUM

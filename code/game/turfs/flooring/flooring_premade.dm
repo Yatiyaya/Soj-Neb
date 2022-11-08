@@ -254,7 +254,7 @@
 /turf/simulated/floor/tiled/dark
 	name = "dark floor"
 	icon = 'icons/turf/flooring/tiles_dark.dmi'
-	icon_state = "dark"
+	icon_state = "tiles"
 	initial_flooring = /decl/flooring/tiling/dark
 
 /turf/simulated/floor/tiled/dark/monotile
@@ -268,7 +268,7 @@
 /turf/simulated/floor/tiled/white
 	name = "white floor"
 	icon = 'icons/turf/flooring/tiles_white.dmi'
-	icon_state = "white"
+	icon_state = "tiles"
 	initial_flooring = /decl/flooring/tiling/white
 
 /turf/simulated/floor/tiled/white/monotile

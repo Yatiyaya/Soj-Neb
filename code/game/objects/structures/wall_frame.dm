@@ -170,3 +170,10 @@
 /obj/structure/wall_frame/hull
 	paint_color = COLOR_HULL
 	stripe_color = COLOR_HULL
+
+//Churchlowwall
+/obj/structure/wall_frame/church
+	name = "Church low wall"
+	paint_color = COLOR_OFF_WHITE
+	icon = 'icons/obj/structures/low_wall.dmi'
+	icon_state = "church"

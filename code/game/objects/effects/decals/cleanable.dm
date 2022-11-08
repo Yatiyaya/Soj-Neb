@@ -49,3 +49,12 @@
 /obj/effect/decal/cleanable/fluid_act(var/datum/reagents/fluid)
 	reagents?.trans_to(fluid, reagents.total_volume)
 	qdel(src)
+
+/obj/effect/decal/cleanable/rubble
+	name = "rubble"
+	desc = "Dirt, soil, loose stones, and residue from some kind of digging. Clean it up!"
+	density = FALSE
+	anchored = TRUE
+	icon = 'icons/obj/burrows.dmi'
+	icon_state = "asteroid0"
+	random_icon_states = list("asteroid0", "asteroid1", "asteroid2", "asteroid3", "asteroid4", "asteroid5", "asteroid6","asteroid7","asteroid8")

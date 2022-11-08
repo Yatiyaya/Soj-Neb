@@ -126,11 +126,23 @@
 	. = ..()
 	install_component(/obj/item/stock_parts/scanning_module/adv, TRUE)
 
+/obj/machinery/camera/xray/security
+	preset_channels = list(NETWORK_SECURITY)
+
+/obj/machinery/camera/xray/medbay
+	preset_channels = list(NETWORK_MEDICAL)
+
+/obj/machinery/camera/xray/research
+	preset_channels = list(NETWORK_RESEARCH)
+
 // MOTION
 
 /obj/machinery/camera/motion/populate_parts(full_populate)
 	. = ..()
 	install_component(/obj/item/stock_parts/micro_laser, TRUE)
+
+/obj/machinery/camera/motion/security
+	preset_channels = list(NETWORK_SECURITY)
 
 // ALL UPGRADES
 
@@ -139,6 +151,9 @@
 	install_component(/obj/item/stock_parts/capacitor/adv, TRUE)
 	install_component(/obj/item/stock_parts/scanning_module/adv, TRUE)
 	install_component(/obj/item/stock_parts/micro_laser, TRUE)
+
+/obj/machinery/camera/all/command
+	preset_channels = list(NETWORK_COMMAND)
 
 // AUTONAME left as a map stub
 /obj/machinery/camera/autoname

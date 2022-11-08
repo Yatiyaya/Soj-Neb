@@ -989,12 +989,12 @@
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
 
-area/nadezhda/medical/medbayshowers
+/area/nadezhda/medical/medbayshowers
 	name = "\improper Medbay Showers"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
 
-area/nadezhda/medical/medbaymeeting
+/area/nadezhda/medical/medbaymeeting
 	name = "\improper Medbay Meeting Room"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
@@ -1578,3 +1578,60 @@ area/nadezhda/medical/medbaymeeting
 /area/nadezhda/storage/tech
 	name = "Technical Storage"
 	icon_state = "auxstorage"
+
+/area/nadezhda/crew_quarters/plasma_tag
+
+	name = "\improper Plasma Tag Area"
+	icon_state = "fitness"
+	sound_env = LARGE_SOFTFLOOR
+
+
+
+/area/shuttle/rocinante_shuttle_area
+	name = "The Rocinante Landing Pad"
+	icon_state = "shuttle"
+	requires_power = FALSE
+	dynamic_lighting = FALSE
+	base_turf = /turf/simulated/floor/reinforced
+
+//Area code
+/area/shuttle/surface_transport_lz
+	name = "Surface Transit Landing Pad"
+	icon_state = "shuttle"
+	requires_power = FALSE
+	dynamic_lighting = FALSE
+	base_turf = /turf/simulated/floor/plating/under
+
+/area/turret_protected/ai
+	name = "\improper AI Chamber"
+	icon_state = "ai_chamber"
+	ambience = list('sound/ambience/ambimalf.ogg')
+
+/area/turret_protected/ai_upload
+	name = "\improper AI Upload Chamber"
+	icon_state = "ai_upload"
+	ambience = list('sound/ambience/ambimalf.ogg')
+
+/area/turret_protected/ai_upload_foyer
+	name = "AI Upload Access"
+	icon_state = "ai_foyer"
+	ambience = list('sound/ambience/ambimalf.ogg')
+	sound_env = SMALL_ENCLOSED
+
+/area/nadezhda/crew_quarters/barquarters
+	name = "Bar Quarters"
+	icon_state = "erisblue"
+
+/area/nadezhda/cave
+	name = "\improper Underground"
+	icon_state = "cave"
+	requires_power = 0
+	sound_env = ASTEROID
+
+/area/nadezhda/crew_quarters/barbackroom
+	name = "Bar Backroom"
+	icon_state = "erisgreen"
+
+/area/mine/gulag
+	name = "Labor Mines"
+	has_gravity = 1

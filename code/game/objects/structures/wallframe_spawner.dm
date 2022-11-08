@@ -151,3 +151,7 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/handle_window_spawn(var/obj/structure/window/reinforced/polarized/P)
 	if(id)
 		P.id = id
+
+/obj/effect/wallframe_spawn/church
+	frame_path = /obj/structure/wall_frame/church
+	icon_state = "sp_church_full_window"

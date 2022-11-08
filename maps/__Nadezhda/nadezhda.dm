@@ -1,7 +1,7 @@
 #include "area/_Nadezhda_areas.dm"
 //#include "data/_Nadezhda_factions.dm"
 //#include "data/_Nadezhda_Turbolifts.dm"
-#include "data/shuttles-nadezhda.dm"
+//#include "data/shuttles-nadezhda.dm"
 //#include "data/overmap-eris.dm"
 //#include "data/shuttles-eris.dm"
 //#include "data/reports.dm"

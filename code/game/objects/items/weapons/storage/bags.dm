@@ -111,3 +111,4 @@
 	w_class = ITEM_SIZE_SMALL
 	can_hold = list(/obj/item/coin, /obj/item/cash)
 	material = /decl/material/solid/leather/synth
+

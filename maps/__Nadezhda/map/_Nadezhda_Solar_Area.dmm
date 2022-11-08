@@ -1240,7 +1240,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/engineering/dorm)
 "ox" = (
-/obj/item/reagent_containers/food/drinks/bottle/small/beer_two,
+/obj/item/chems/drinks/bottle/small/beer_two,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/mountainsolars)
 "oG" = (
@@ -1273,7 +1273,7 @@
 /turf/simulated/floor/fixed/hydrotile,
 /area/nadezhda/outside/mountainsolars)
 "pq" = (
-/obj/machinery/vending/wallmed{
+/obj/machinery/vending/wallmed1{
 	name = "Emergency NanoMed";
 	pixel_x = 0;
 	pixel_y = 32
@@ -1879,7 +1879,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/mountainsolars)
 "Og" = (
-/obj/structure/low_wall,
+/obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/nadezhda/engineering/dorm)
 "Oj" = (
@@ -1891,7 +1891,7 @@
 /area/nadezhda/outside/mountainsolars)
 "Ok" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/low_wall,
+/obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/nadezhda/engineering/dorm)
 "Oq" = (
@@ -1984,7 +1984,7 @@
 /turf/simulated/floor/carpet/oracarpet,
 /area/nadezhda/engineering/dorm)
 "Rb" = (
-/obj/item/reagent_containers/food/drinks/bottle/small/beer_two,
+/obj/item/chems/drinks/bottle/small/beer_two,
 /obj/structure/flora/small/bushc3,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/mountainsolars)
@@ -2155,7 +2155,7 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
-/obj/structure/low_wall,
+/obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/nadezhda/engineering/dorm)
 "XR" = (

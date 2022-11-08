@@ -34,3 +34,4 @@
 		/obj/item/clothing/glasses/meson,
 		/obj/item/clothing/head/soft,
 	)
+

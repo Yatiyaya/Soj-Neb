@@ -1539,7 +1539,7 @@ var/global/list/floor_decals = list()
 /obj/effect/floor_decal/corner_kafel/green/full
 	name = "corner kafel full"
 
-obj/effect/floor_decal/corner_techfloor_gray
+/obj/effect/floor_decal/corner_techfloor_gray
 	name = "corner techfloorgray"
 	icon_state = "corner_techfloor_gray"
 

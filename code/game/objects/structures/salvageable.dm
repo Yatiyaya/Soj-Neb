@@ -139,7 +139,7 @@
 		/obj/item/stock_parts/matter_bin/adv = 20,
 		/obj/item/stock_parts/matter_bin/adv = 20,
 		/obj/item/stock_parts/circuitboard/autolathe = 5,
-		/obj/item/stack/material/steel{amount = 10} = 40,
+		/obj/item/stack/material/sheet/mapped/steel/ten = 40,
 		/obj/item/stack/material/glass{amount = 10} = 40,
 		/obj/item/stack/material/plastic{amount = 10} = 40,
 		/obj/item/stack/material/plasteel{amount = 5} = 40,
@@ -188,12 +188,12 @@
 		/obj/item/organ/external/robotic/excelsior/r_leg = 1,
 		/obj/item/implantcase = 30,
 		/obj/item/implanter = 30,
-		/obj/item/stack/material/steel{amount = 10} = 30,
+		/obj/item/stack/material/sheet/mapped/steel/ten = 30,
 		/obj/item/stack/material/glass{amount = 10} = 30,
 		/obj/item/stack/material/silver{amount = 5} = 30
 	)
 */
-obj/structure/salvageable/implant_container/Initialize()
+/obj/structure/salvageable/implant_container/Initialize()
 	. = ..()
 	icon_state = "implant_container[rand(0,1)]"
 
@@ -225,7 +225,7 @@ obj/structure/salvageable/implant_container/Initialize()
 		/obj/item/computer_hardware/network_card/advanced = 20
 	)
 */
-obj/structure/salvageable/data/Initialize()
+/obj/structure/salvageable/data/Initialize()
 	. = ..()
 	icon_state = "data[rand(0,1)]"
 
@@ -260,7 +260,7 @@ obj/structure/salvageable/data/Initialize()
 		/obj/item/computer_hardware/network_card/advanced = 20
 	)
 */
-obj/structure/salvageable/server/Initialize()
+/obj/structure/salvageable/server/Initialize()
 	. = ..()
 	icon_state = "server[rand(0,1)]"
 
@@ -292,7 +292,7 @@ obj/structure/salvageable/server/Initialize()
 		/obj/random/lathe_disk/advanced = 30,
 	)
 */
-obj/structure/salvageable/personal/Initialize()
+/obj/structure/salvageable/personal/Initialize()
 	. = ..()
 	icon_state = "personal[rand(0,12)]"
 	new /obj/structure/table/reinforced (loc)
@@ -314,7 +314,7 @@ obj/structure/salvageable/personal/Initialize()
 		/obj/item/stock_parts/micro_laser/excelsior = 20
 	)
 */
-obj/structure/salvageable/bliss/Initialize()
+/obj/structure/salvageable/bliss/Initialize()
 	. = ..()
 	icon_state = "bliss[rand(0,1)]"
 /*
@@ -385,7 +385,7 @@ obj/structure/salvageable/bliss/Initialize()
 		/obj/random/prothesis/one_star = 20,
 		/obj/random/lathe_disk/advanced/onestar = 10,
 		/obj/item/stock_parts/circuitboard/autolathe = 5,
-		/obj/item/stack/material/steel{amount = 10} = 60,
+		/obj/item/stack/material/sheet/mapped/steel/ten = 60,
 		/obj/item/stack/material/glass{amount = 10} = 60,
 		/obj/item/stack/material/plastic{amount = 10} = 60,
 		/obj/item/stack/material/platinum{amount = 10} = 60,
