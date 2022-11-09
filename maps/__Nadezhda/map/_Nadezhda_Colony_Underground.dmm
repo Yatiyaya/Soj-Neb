@@ -791,7 +791,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "acd" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -804,7 +804,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/quartermaster/miningdock)
 "ace" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -4692,7 +4692,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/medical/chemistry)
 "akl" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -4951,7 +4951,7 @@
 /area/nadezhda/crew_quarters/cafeteria)
 "akP" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	req_access = list(24,10)
 	},
 /turf/simulated/floor/plating/under,
@@ -7406,7 +7406,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(1)
 	},
 /obj/structure/catwalk,
@@ -8389,7 +8389,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/engineering/engine_room)
 "are" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -9037,7 +9037,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/sechall)
 "ase" = (
-/obj/machinery/door/airlock/maintenance_security,
+/obj/machinery/door/airlock/maintenance/security,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -9399,7 +9399,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "asB" = (
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(63)
 	},
 /obj/structure/catwalk,
@@ -12970,7 +12970,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "ayq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_interior{
+/obj/machinery/door/airlock/maintenance/interior{
 	req_access = list(12)
 	},
 /obj/random/traps/low_chance,
@@ -16292,7 +16292,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "aHK" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /turf/simulated/floor/plating/under,
 /area/colony)
 "aHL" = (
@@ -16328,7 +16328,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "aHS" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -16469,7 +16469,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aIt" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/engineering/atmos)
 "aIu" = (
@@ -16640,7 +16640,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/command/swo/quarters)
 "aIT" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/engineering/atmos)
 "aIU" = (
@@ -16924,7 +16924,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "aJL" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -18703,7 +18703,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/bridge)
 "aPo" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
@@ -18799,7 +18799,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/docking)
 "aPB" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /obj/structure/cable/green{
@@ -23741,7 +23741,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bdI" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
@@ -23827,7 +23827,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "bdW" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bdX" = (
@@ -23903,7 +23903,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bej" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -23923,7 +23923,7 @@ obj/item/chems/drinks/dry_ramen,
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
@@ -23942,7 +23942,7 @@ obj/item/chems/drinks/dry_ramen,
 "bep" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "beq" = (
@@ -24013,7 +24013,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "beA" = (
-/obj/machinery/door/airlock/maintenance_security,
+/obj/machinery/door/airlock/maintenance/security,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
@@ -24369,7 +24369,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bfn" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bfo" = (
@@ -24487,7 +24487,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/rnd/robotics)
 "bfD" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bfE" = (
@@ -24597,7 +24597,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bfT" = (
 /obj/effect/floor_decal/industrial/hatch,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bfU" = (
@@ -24717,7 +24717,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bgk" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bgl" = (
@@ -24860,7 +24860,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bgC" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bgD" = (
@@ -25076,7 +25076,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bhn" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bho" = (
@@ -25179,7 +25179,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bhC" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bhD" = (
@@ -25795,7 +25795,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bjv" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/crew_quarters/pool)
 "bjx" = (
@@ -26059,7 +26059,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bkj" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
@@ -26163,7 +26163,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bky" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bkz" = (
@@ -26350,7 +26350,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/crew_quarters/clownoffice)
 "bkY" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bla" = (
@@ -26633,7 +26633,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "blT" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "blU" = (
@@ -26956,7 +26956,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/rock,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bmU" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bmV" = (
@@ -26974,7 +26974,7 @@ obj/item/chems/drinks/dry_ramen,
 "bmY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bmZ" = (
@@ -27547,7 +27547,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/docking)
 "boA" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /obj/structure/cable/green{
@@ -28047,7 +28047,7 @@ obj/item/chems/drinks/dry_ramen,
 "bpr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	req_access = list(50,78,48,26,70)
 	},
 /obj/structure/disposalpipe/segment,
@@ -30148,7 +30148,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/plating/under,
 /area/colony)
 "cyg" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
@@ -35064,7 +35064,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/crew_quarters/kitchen)
 "fKF" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -38098,7 +38098,7 @@ obj/item/chems/drinks/dry_ramen,
 	},
 /area/nadezhda/hallway/side/f2section2)
 "hJz" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -40114,7 +40114,7 @@ obj/item/chems/drinks/dry_ramen,
 "jly" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
@@ -45957,7 +45957,7 @@ obj/item/chems/drinks/dry_ramen,
 /area/nadezhda/hallway/side/f2section1)
 "mSB" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1south)
@@ -46560,7 +46560,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/armoryshop)
 "nnp" = (
-/obj/machinery/door/airlock/maintenance_command,
+/obj/machinery/door/airlock/maintenance/command,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/panic_room)
@@ -49405,7 +49405,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/command/bridge)
 "phS" = (
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -50212,7 +50212,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "pLu" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -52553,7 +52553,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "rqx" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/crew_quarters/sleep/cryo2)
@@ -56235,7 +56235,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/floor/carpet,
 /area/nadezhda/command/courtroom)
 "tCx" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -56780,7 +56780,7 @@ obj/item/chems/drinks/dry_ramen,
 /turf/simulated/wall/r_wall,
 /area/nadezhda/engineering/atmos)
 "tUF" = (
-/obj/machinery/door/airlock/maintenance_medical{
+/obj/machinery/door/airlock/maintenance/medical{
 	name = "Cyrogenic Storage";
 	req_access = list(5)
 	},

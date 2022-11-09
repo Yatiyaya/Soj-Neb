@@ -10,7 +10,7 @@
 /turf/simulated/open,
 /area/nadezhda/crew_quarters/botanist)
 "aaf" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -265,7 +265,7 @@
 	name = "\improper Outdoors - Pad"
 	})
 "abr" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "abs" = (
@@ -559,7 +559,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "aei" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/crew_quarters/techshop)
@@ -1330,7 +1330,7 @@
 /turf/simulated/floor/plating,
 /area/colony)
 "amy" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -1685,7 +1685,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/absolutism/bioreactor)
 "aqG" = (
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	name = "General Research Lockers";
 	req_access = list(5)
 	},
@@ -2047,7 +2047,7 @@
 /area/nadezhda/hallway/side/f2section1)
 "aun" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section5";
 	name = "glass shutter"
 	},
@@ -2924,7 +2924,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "aEQ" = (
-/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/suit_cycler/generic/prepared,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/rnd/circuitlab{
 	name = "Science Expedition prep"
@@ -5028,7 +5028,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/hallway/side/f2section1)
 "aZi" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -5461,7 +5461,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "bde" = (
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/substation/section7)
@@ -5483,7 +5483,7 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/substation/section7)
 "bdl" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -5628,7 +5628,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "beC" = (
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
 	icon_state = "warning"
@@ -6277,7 +6277,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bli" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -6342,7 +6342,7 @@
 /turf/exterior/wall,
 /area/nadezhda/outside/meadow)
 "blG" = (
-/obj/machinery/ntnet_relay,
+/obj/machinery/network/relay,
 /turf/simulated/floor/bluegrid{
 	name = "Server Base";
 	nitrogen = 500;
@@ -6580,7 +6580,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = null;
 	name = "Chem/Viro Labs";
 	req_access = list(5)
@@ -6630,7 +6630,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/substation/section1)
 "bop" = (
-/obj/machinery/autolathe/bioprinter{
+/obj/machinery/fabricator/bioprinter{
 	name = "Bioprinter"
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -6762,7 +6762,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Breakroom";
 	req_access = list(1)
 	},
@@ -6854,7 +6854,7 @@
 	icon_state = "alarm0";
 	pixel_y = -22
 	},
-/obj/machinery/computer/general_air_control{
+/obj/machinery/computer/air_control{
 	dir = 8;
 	frequency = 1441;
 	name = "Tank Monitor";
@@ -6916,7 +6916,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "bqN" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 20
 	},
 /obj/machinery/door/window/southleft{
@@ -6992,7 +6992,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/crew_quarters/kitchen)
 "brl" = (
-/obj/machinery/microwave/burnbarrel,
+
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/asteroid/dirt/flood,
 /area/nadezhda/maintenance/undergroundfloor1north)
@@ -7302,7 +7302,7 @@
 /area/nadezhda/rnd/xenobiology)
 "buR" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8688,12 +8688,12 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/bridgebar)
 "bJm" = (
-/obj/machinery/door/airlock/glass/open,
+/obj/machinery/door/airlock/glass/civilian,
 /obj/effect/spider/stickyweb,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "bJq" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	id_tag = "BrigFoyer";
 	layer = 2.8;
 	name = "High Risk Holding";
@@ -9454,7 +9454,7 @@
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical,
 /obj/item/weldingtool,
-/obj/item/saw,
+/obj/item/circular_saw,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/glasses/welding,
@@ -9882,7 +9882,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/hallway/surface/section1)
 "bWh" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "bWr" = (
@@ -9989,7 +9989,7 @@
 /area/shuttle/rocinante_shuttle_area)
 "bXl" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
@@ -10544,7 +10544,7 @@
 "ccg" = (
 /obj/machinery/door/firedoor,
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/crew_quarters/plasma_tag)
 "ccn" = (
@@ -10592,7 +10592,7 @@
 /obj/structure/table/steel,
 /obj/random/lowkeyrandom/low_chance,
 /obj/random/lowkeyrandom/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "ccS" = (
@@ -11504,7 +11504,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/hallway/surface/section1)
 "cmD" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -12665,7 +12665,7 @@
 /area/shuttle/rocinante_shuttle_area)
 "cxW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -12883,12 +12883,12 @@
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/security/laber_area)
 "czO" = (
-/obj/machinery/dnaforensics,
+/obj/machinery/forensic,
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/security/detectives_office)
 "czX" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/suit_storage_unit/engineering/atmos,
+/obj/machinery/suit_cycler/engineering/prepared/atomspheric,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/engineering/construction)
 "czZ" = (
@@ -13481,7 +13481,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "cEA" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
@@ -13541,7 +13541,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/quartermaster/hangarsupply)
 "cFA" = (
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = newlist();
 	req_access = list(50,78,48,26)
@@ -13578,7 +13578,7 @@
 /area/nadezhda/medical/chemistry)
 "cFL" = (
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -13785,7 +13785,7 @@
 /area/nadezhda/medical/organ_lab)
 "cIq" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/nadezhda/maintenance{
 	name = "Residential District Maintenance"
@@ -13855,7 +13855,7 @@
 	name = "\improper Outdoors - Pad"
 	})
 "cIW" = (
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(1)
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
@@ -14801,7 +14801,7 @@
 /area/nadezhda/dungeon/outside/abandoned_solars)
 "cTc" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/obj/machinery/porta_turret/gate,
+/obj/machinery/porta_turret/stationary,
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/security/maingate{
 	name = "\improper Outdoors - Pad"
@@ -14913,7 +14913,7 @@
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/medical/genetics)
 "cTV" = (
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /obj/random/traps/low_chance,
@@ -15166,7 +15166,7 @@
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/medical/sleeper)
 "cWw" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	name = "Fireplace  Cover"
 	},
 /obj/structure/bonfire/permanent,
@@ -15267,7 +15267,7 @@
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "cXA" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "cXG" = (
@@ -15464,7 +15464,7 @@
 /area/nadezhda/crew_quarters)
 "day" = (
 /obj/structure/bonfire/permanent,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/alt,
 /area/nadezhda/crew_quarters/cafeteria)
@@ -15702,7 +15702,7 @@
 	name = "Medbay Total Lockdown";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	name = "Chem/Viro Labs";
 	req_access = list(33,29)
 	},
@@ -15873,7 +15873,7 @@
 /obj/machinery/door/window/southleft{
 	name = "shower door"
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 21
 	},
 /turf/simulated/floor/tiled/cafe,
@@ -16036,7 +16036,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "dfx" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /obj/structure/cable/green{
@@ -16145,7 +16145,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/quartermaster/hangarsupply)
 "dgM" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/guild)
 "dgZ" = (
@@ -16985,7 +16985,7 @@
 	})
 "dpc" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/suit_storage_unit/security,
+/obj/machinery/suit_cycler/security/prepared,
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -16995,7 +16995,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "dpi" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -17083,7 +17083,7 @@
 /area/nadezhda/crew_quarters/barquarters)
 "dpD" = (
 /obj/structure/lattice,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /obj/structure/bonfire/permanent,
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -17209,7 +17209,7 @@
 /obj/structure/table{
 	name = "plastic table frame"
 	},
-/obj/item/saw/improvised,
+/obj/item/circular_saw,
 /obj/item/wrench/improvised,
 /obj/random/tool_upgrade/rare/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -17706,7 +17706,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "dvD" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -17784,7 +17784,7 @@
 "dwt" = (
 /obj/structure/rack,
 /obj/random/pack/cloth/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "dwx" = (
@@ -17870,7 +17870,7 @@
 /area/nadezhda/crew_quarters/sleep/cryo2)
 "dxr" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section2";
 	name = "glass shutter"
 	},
@@ -17959,7 +17959,7 @@
 	icon_state = "4-8"
 	},
 /obj/random/traps/wire_splicing/low_chance,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "SI Solar Outpost";
 	req_access = list(5)
 	},
@@ -18977,7 +18977,7 @@
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
 "dHZ" = (
-/obj/machinery/suit_storage_unit/rad_unit,
+/obj/machinery/suit_cycler/engineering/prepared,
 /turf/exterior/wall,
 /area/colony)
 "dIe" = (
@@ -19675,7 +19675,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/construction)
 "dPb" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/gray_platform,
@@ -19783,7 +19783,7 @@
 /turf/simulated/floor/asteroid/dirt/mud,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "dQS" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	req_access = list(25)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -19906,7 +19906,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "dRM" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/autolathe/mechfab,
+/obj/machinery/fabricator/robotics,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/rnd/robotics)
 "dRQ" = (
@@ -20145,7 +20145,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -20242,7 +20242,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/tactical)
 "dVh" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	name = "Fireplace  Cover"
 	},
 /obj/structure/bonfire/permanent,
@@ -20348,14 +20348,14 @@
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
 	},
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/quartermaster/office)
 "dWw" = (
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = null;
 	name = "Monkey Containment";
 	req_access = list(39)
@@ -20687,7 +20687,7 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/panic_room)
 "dZo" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -20789,7 +20789,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "ear" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "eau" = (
@@ -20895,7 +20895,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "ebI" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -21344,7 +21344,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar1";
 	name = "glass shutter"
 	},
@@ -21454,7 +21454,7 @@
 /obj/structure/rack,
 /obj/random/pack/cloth/low_chance,
 /obj/random/pack/cloth/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "egh" = (
@@ -21779,7 +21779,7 @@
 /obj/machinery/light_switch{
 	pixel_x = -20
 	},
-/obj/machinery/smartfridge/kitchen/church,
+/obj/machinery/smartfridge/foods,
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/absolutism/vectorrooms)
 "ejZ" = (
@@ -21877,7 +21877,7 @@
 /turf/simulated/floor/asteroid/dirt/mud,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "elc" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Expedition prep";
 	req_access = list(5)
 	},
@@ -22321,7 +22321,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/captain/quarters)
 "epQ" = (
-/obj/machinery/computer/general_air_control,
+/obj/machinery/computer/air_control,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/engineering/atmos/surface)
 "epX" = (
@@ -22664,7 +22664,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security/armory)
 "esY" = (
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/nadezhda/storage/primary)
 "etf" = (
@@ -22898,7 +22898,7 @@
 	dir = 8
 	},
 /obj/machinery/camera/network/engineering,
-/obj/machinery/ntnet_relay,
+/obj/machinery/network/relay,
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/nadezhda/engineering/atmos/surface)
 "evo" = (
@@ -23071,7 +23071,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -23382,7 +23382,7 @@
 /obj/item/stack/material/wood/random,
 /obj/item/stack/material/wood/random,
 /obj/item/stack/material/wood/random,
-/obj/item/saw/improvised,
+/obj/item/circular_saw,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -23579,7 +23579,7 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/nadezhda/medical/organ_lab)
 "eDk" = (
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -25160,7 +25160,7 @@
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "eSA" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	req_access = list(24,10)
 	},
 /obj/machinery/door/blast/regular/open{
@@ -25474,7 +25474,7 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/nadezhda/crew_quarters/cafeteria)
 "eUt" = (
-/obj/machinery/r_n_d/destructive_analyzer,
+/obj/machinery/destructive_analyzer,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/rnd/research)
 "eUv" = (
@@ -25485,7 +25485,7 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/machinery/portable_atmospherics/hydroponics/soil/invisible,
-/obj/machinery/microwave/burnbarrel,
+
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "eUC" = (
@@ -26239,7 +26239,7 @@
 /area/nadezhda/hallway/surface/section1)
 "fbE" = (
 /obj/random/traps/low_chance,
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -26329,7 +26329,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos)
 "fcr" = (
-/obj/machinery/suit_storage_unit/engineering/atmos,
+/obj/machinery/suit_cycler/engineering/prepared/atomspheric,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos)
 "fct" = (
@@ -26409,7 +26409,7 @@
 "fdr" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "buffet2";
 	name = "buffet"
 	},
@@ -26615,7 +26615,7 @@
 /turf/simulated/floor/beach/water/jungledeep,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "ffN" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Post";
 	req_access = list(1)
 	},
@@ -26717,7 +26717,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/rbreakroom)
 "fgz" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -27033,7 +27033,7 @@
 /area/nadezhda/dungeon/outside/burned_outpost)
 "fjH" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = list(50)
 	},
@@ -27056,7 +27056,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/quartermaster/miningdock)
 "fjR" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/random/traps/low_chance,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cafe,
@@ -28048,7 +28048,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "fsC" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/hallway/surface/section1)
 "fsM" = (
@@ -28058,7 +28058,7 @@
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/engineering/atmos/surface)
 "fsN" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	req_access = list(25)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -28571,7 +28571,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/absolutism/vectorrooms)
 "fxy" = (
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(1)
 	},
 /obj/machinery/door/blast/shutters{
@@ -29500,7 +29500,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -29922,7 +29922,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "fJA" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/crew_quarters/plasma_tag)
 "fJB" = (
@@ -30585,7 +30585,7 @@
 "fPO" = (
 /obj/structure/rack,
 /obj/random/cloth/under/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "fPV" = (
@@ -30862,7 +30862,7 @@
 	},
 /obj/structure/table/marble,
 /obj/item/ashtray,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar2";
 	name = "glass shutter"
 	},
@@ -31044,7 +31044,7 @@
 "fVo" = (
 /obj/structure/rack,
 /obj/random/cloth/under,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "fVt" = (
@@ -31355,7 +31355,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "fYJ" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -31781,7 +31781,7 @@
 	},
 /area/nadezhda/maintenance/undergroundfloor1north)
 "gcg" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/crew_quarters/pool)
@@ -32031,7 +32031,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "churcharm1";
 	name = "Church Armory"
 	},
@@ -32778,7 +32778,7 @@
 	name = "\improper Outdoors - Pad"
 	})
 "gkx" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "gkC" = (
@@ -33315,7 +33315,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "gpd" = (
-/obj/machinery/porta_turret/gate,
+/obj/machinery/porta_turret/stationary,
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/security/maingate{
 	name = "\improper Outdoors - Pad"
@@ -34536,7 +34536,7 @@
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "gBG" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Prep Room";
 	req_access = list(1)
 	},
@@ -34774,7 +34774,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/captain)
 "gEm" = (
-/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/suit_cycler/generic/prepared,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/absolutism/skyyard)
 "gEo" = (
@@ -34821,7 +34821,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/sechall)
 "gES" = (
-/obj/machinery/suit_storage_unit/rad_unit,
+/obj/machinery/suit_cycler/engineering/prepared,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "gEU" = (
@@ -34985,7 +34985,7 @@
 /obj/random/cloth/under,
 /obj/random/cloth/under,
 /obj/random/cloth/under/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "gGn" = (
@@ -35431,7 +35431,7 @@
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/medical/cryo)
 "gKg" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 4;
 	frequency = 1441;
 	input_tag = "tox_in";
@@ -35915,7 +35915,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/security/barracks)
 "gOA" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -36190,7 +36190,7 @@
 /area/nadezhda/dungeon/outside/abandoned_solars)
 "gRG" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section9";
 	name = "glass shutter"
 	},
@@ -36897,7 +36897,7 @@
 "gXZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	req_access = list(50,78,48,26,70)
 	},
 /obj/structure/disposalpipe/segment,
@@ -36905,7 +36905,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/quartermaster/disposaldrop)
 "gYf" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	name = "Fireplace  Cover"
 	},
 /obj/structure/bonfire/permanent,
@@ -37693,7 +37693,7 @@
 /turf/simulated/wall,
 /area/nadezhda/crew_quarters/cafeteria)
 "hgt" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -38344,7 +38344,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/quartermaster/disposaldrop)
 "hnj" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/wall,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "hns" = (
@@ -39273,7 +39273,7 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/nadezhda/crew_quarters/cafeteria)
 "hwY" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -40302,7 +40302,7 @@
 /area/nadezhda/security/laber_area)
 "hJc" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = list(50)
 	},
@@ -40370,7 +40370,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -40381,7 +40381,7 @@
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "hJz" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -41443,7 +41443,7 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/nadezhda/security/tactical_blackshield)
 "hUd" = (
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -41816,7 +41816,7 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/courtroom)
 "hXY" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -41859,7 +41859,7 @@
 "hYr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/obj/machinery/microwave/burnbarrel,
+
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "hYz" = (
@@ -42596,7 +42596,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "igf" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Barracks";
 	req_access = list(1)
 	},
@@ -43083,7 +43083,7 @@
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/security/armory_blackshield)
 "ilF" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
@@ -43206,7 +43206,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "inm" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -43621,7 +43621,7 @@
 /area/nadezhda/hallway/side/f2section1)
 "irH" = (
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -43730,7 +43730,7 @@
 /turf/simulated/floor/tiled/white/cargo,
 /area/nadezhda/hallway/side/f2section1)
 "isI" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "isM" = (
@@ -44080,7 +44080,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/engineering/workshop)
 "ivt" = (
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -44354,7 +44354,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/nadezhda/engineering/atmos)
 "iyd" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Court Processing";
 	req_access = list(1)
 	},
@@ -44500,7 +44500,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "izs" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/main/stairwell)
@@ -44741,7 +44741,7 @@
 "iBZ" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "buffet2";
 	name = "buffet"
 	},
@@ -44892,7 +44892,7 @@
 /turf/simulated/floor/reinforced,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "iDQ" = (
-/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/suit_cycler/generic/prepared,
 /obj/structure/sign/faction/neotheology_cross{
 	pixel_y = 30
 	},
@@ -45181,7 +45181,7 @@
 /area/nadezhda/quartermaster/disposaldrop)
 "iGl" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -45456,7 +45456,7 @@
 	})
 "iIP" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = null;
 	name = "Chemistry Lab";
 	req_access = list(33)
@@ -45881,7 +45881,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/hallway/surface/section1)
 "iNh" = (
@@ -46385,7 +46385,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -46735,7 +46735,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters)
 "iUM" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -46829,7 +46829,7 @@
 /area/nadezhda/outside/forest)
 "iVR" = (
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -46868,7 +46868,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos)
 "iWg" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -47099,7 +47099,7 @@
 	},
 /area/nadezhda/command/bridgebar)
 "iYh" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 8;
 	frequency = 1441;
 	input_tag = "waste_in";
@@ -47294,7 +47294,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
 "jac" = (
@@ -47376,7 +47376,7 @@
 	})
 "jaR" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_medical,
+/obj/machinery/door/airlock/maintenance/medical,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "jaT" = (
@@ -47895,7 +47895,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(1)
 	},
 /obj/machinery/door/firedoor,
@@ -48007,7 +48007,7 @@
 /area/turret_protected/ai)
 "jgT" = (
 /obj/effect/floor_decal/spline/plain,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 20
 	},
 /obj/effect/floor_decal/corner_techfloor_grid,
@@ -48060,7 +48060,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = "medbay exit";
 	name = "Medbay";
 	req_access = newlist();
@@ -48201,7 +48201,7 @@
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "jiM" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 4;
 	frequency = 1441;
 	input_tag = "n2o_in";
@@ -49067,7 +49067,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/command/teleporter)
 "jrj" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "jrk" = (
@@ -49506,7 +49506,7 @@
 /area/nadezhda/command/tcommsat/computer)
 "jvx" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section7";
 	name = "glass shutter"
 	},
@@ -49606,7 +49606,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "jwq" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 21
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -49815,7 +49815,7 @@
 /area/nadezhda/quartermaster/miningdock)
 "jyK" = (
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -50255,7 +50255,7 @@
 /turf/simulated/floor/tiled/white/golden,
 /area/nadezhda/engineering/atmos/surface)
 "jCL" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "churcharm1";
 	name = "Church Armory"
 	},
@@ -50877,7 +50877,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "jJj" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -51952,7 +51952,7 @@
 /turf/simulated/floor/plating,
 /area/nadezhda/security/tactical_blackshield)
 "jTF" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1south)
@@ -52033,7 +52033,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "jUi" = (
 /obj/structure/table,
-/obj/item/saw/circular,
+/obj/item/circular_saw,
 /obj/item/scanner/xenobio,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/xenobiology)
@@ -52357,7 +52357,7 @@
 /obj/random/cloth/under,
 /obj/random/cloth/under,
 /obj/random/cloth/under,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "jXh" = (
@@ -53296,7 +53296,7 @@
 	name = "Checkpoint Blast Doors";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Post";
 	req_access = list(1)
 	},
@@ -53506,7 +53506,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "khj" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/nadezhda/pros/proelav)
 "khp" = (
@@ -53747,7 +53747,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "kjy" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
@@ -53830,7 +53830,7 @@
 	},
 /obj/structure/table/marble,
 /obj/machinery/floor_light,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar2";
 	name = "glass shutter"
 	},
@@ -55029,7 +55029,7 @@
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/outside/meadow)
 "kuC" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/hallway/side/f2section1)
 "kuK" = (
@@ -55503,7 +55503,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Blackshield";
 	req_access = list(1)
 	},
@@ -55587,7 +55587,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters/techshop)
 "kAh" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -55616,7 +55616,7 @@
 /obj/machinery/door/window/southleft{
 	name = "shower door"
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 21
 	},
 /turf/simulated/floor/tiled/cafe,
@@ -56150,7 +56150,7 @@
 /area/nadezhda/hallway/main/stairwell)
 "kFk" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section3";
 	name = "glass shutter"
 	},
@@ -56225,7 +56225,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/pond)
 "kGe" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Robotics Surgery Lab";
 	req_access = list(29)
 	},
@@ -56418,7 +56418,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/crew_quarters/plasma_tag)
 "kHJ" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -56669,7 +56669,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/sechall)
 "kKK" = (
-/obj/machinery/door/airlock/maintenance_medical{
+/obj/machinery/door/airlock/maintenance/medical{
 	name = "Cyrogenic Storage";
 	req_access = list(5)
 	},
@@ -56863,7 +56863,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Expedition prep";
 	req_access = list(5)
 	},
@@ -57383,7 +57383,7 @@
 /area/nadezhda/medical/reception)
 "kRE" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /obj/structure/railing{
 	dir = 4
 	},
@@ -57519,7 +57519,7 @@
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "kSA" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -57884,7 +57884,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "kVF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = "medbay exit";
 	name = "Medbay";
 	req_access = newlist();
@@ -58678,7 +58678,7 @@
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/crew_quarters/kitchen)
 "lcf" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 1
 	},
 /obj/structure/railing/grey{
@@ -59418,7 +59418,7 @@
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/rnd/robotics)
 "lji" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 8;
 	frequency = 1443;
 	input_tag = "air_in";
@@ -59685,7 +59685,7 @@
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/quartermaster/miningdock)
 "llM" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -59970,7 +59970,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Expedition prep";
 	req_access = list(5)
 	},
@@ -60601,7 +60601,7 @@
 /area/nadezhda/outside/lakeside)
 "luo" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/machinery/door/blast/regular/open{
 	id = "Colony Lockdown"
 	},
@@ -60876,7 +60876,7 @@
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "lxz" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	id_tag = "BrigFoyer";
 	layer = 2.8;
 	name = "Brig";
@@ -60911,7 +60911,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/rnd/circuitlab)
 "lxQ" = (
-/obj/machinery/door/airlock/maintenance_medical,
+/obj/machinery/door/airlock/maintenance/medical,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "lxR" = (
@@ -61352,7 +61352,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/botanist)
 "lBD" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 4;
 	frequency = 1441;
 	input_tag = "co2_in";
@@ -61488,7 +61488,7 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/nadezhda/command/captain/quarters)
 "lCN" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -62132,7 +62132,7 @@
 /area/nadezhda/hallway/main/stairwell)
 "lJw" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = list(50)
 	},
@@ -62619,7 +62619,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "lOv" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section";
 	name = "glass shutter"
 	},
@@ -62748,7 +62748,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/rbreakroom)
 "lPE" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development";
 	req_access = list(5)
 	},
@@ -63093,7 +63093,7 @@
 /turf/simulated/floor/plating/under,
 /area/mine/gulag)
 "lSF" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /turf/simulated/floor/tiled/dark/panels,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "lSH" = (
@@ -63229,7 +63229,7 @@
 	name = "Dormitory 4"
 	})
 "lUh" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -63641,7 +63641,7 @@
 /area/nadezhda/command/tcommsat/computer)
 "lYh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/guild)
 "lYj" = (
@@ -63852,7 +63852,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	name = "Chem/Viro Labs";
 	req_access = list(33,29)
 	},
@@ -64278,7 +64278,7 @@
 /area/nadezhda/crew_quarters/techshop)
 "mdF" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/autolathe/mechfab,
+/obj/machinery/fabricator/robotics,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "mdP" = (
@@ -64606,7 +64606,7 @@
 "mhb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar1";
 	name = "glass shutter"
 	},
@@ -64841,7 +64841,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -65080,7 +65080,7 @@
 /turf/simulated/floor/reinforced,
 /area/nadezhda/security/tactical_blackshield)
 "mlF" = (
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = "medbay exit";
 	name = "Medbay";
 	req_access = newlist();
@@ -65814,7 +65814,7 @@
 /area/nadezhda/outside/forest)
 "mrk" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section10";
 	name = "glass shutter"
 	},
@@ -66532,7 +66532,7 @@
 /area/nadezhda/hallway/side/f2section1)
 "myj" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 4;
@@ -66916,7 +66916,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "mCA" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Corpsmen Triage";
 	req_access = list(63)
 	},
@@ -67073,7 +67073,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "mDl" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
 "mDp" = (
@@ -67398,7 +67398,7 @@
 "mFR" = (
 /obj/structure/rack,
 /obj/random/cloth/head/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "mGa" = (
@@ -67782,7 +67782,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -69046,7 +69046,7 @@
 "mWj" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "buffet2";
 	name = "buffet"
 	},
@@ -70039,7 +70039,7 @@
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/absolutism/bioreactor)
 "ngE" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 1;
 	frequency = 1441;
 	input_tag = "o2_in";
@@ -70317,7 +70317,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = null;
 	name = "Front Desk";
 	req_access = list(5)
@@ -70662,7 +70662,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "nmF" = (
 /obj/structure/table/steel,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "nmW" = (
@@ -71226,7 +71226,7 @@
 	},
 /area/nadezhda/maintenance/undergroundfloor1north)
 "nsd" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	dir = 1;
 	frequency = 1441;
 	input_tag = "n2_in";
@@ -72692,7 +72692,7 @@
 	name = "Dormitory 4"
 	})
 "nGN" = (
-/obj/machinery/blackbox_recorder,
+/obj/machinery/design_database,
 /turf/simulated/floor/bluegrid{
 	name = "Server Base";
 	nitrogen = 500;
@@ -72935,7 +72935,6 @@
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/medical/cryo)
 "nJa" = (
-/obj/machinery/suit_storage_unit/nt/custodian,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/crew_quarters/janitor)
 "nJj" = (
@@ -72974,7 +72973,7 @@
 "nJC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development Teleporter Testing";
 	req_access = list(5)
 	},
@@ -73253,7 +73252,7 @@
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/nadezhda/outside/dcave)
 "nLL" = (
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = null;
 	name = "Chemistry Lab";
 	req_access = list(33)
@@ -73269,7 +73268,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/meadow)
 "nLY" = (
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /obj/item/computer_hardware/hard_drive/portable/design/misc,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/rnd/robotics)
@@ -73605,7 +73604,7 @@
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
 "nQh" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
@@ -73645,7 +73644,7 @@
 "nQJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_medical{
+/obj/machinery/door/airlock/maintenance/medical{
 	name = "Soteria Maintenance";
 	req_access = list(5)
 	},
@@ -73793,7 +73792,7 @@
 /obj/random/cloth/under/low_chance,
 /obj/random/cloth/under/low_chance,
 /obj/random/cloth/under/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "nSD" = (
@@ -74455,7 +74454,7 @@
 /turf/simulated/floor/reinforced/nitrogen,
 /area/nadezhda/engineering/construction)
 "nYD" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -75432,7 +75431,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos/storage)
 "ogl" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "ogo" = (
@@ -76147,7 +76146,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "onh" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -76464,7 +76463,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/office)
 "oqp" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Lobby Access";
 	req_access = list(10)
 	},
@@ -76542,7 +76541,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "oqO" = (
-/obj/machinery/imprinter,
+/obj/machinery/fabricator/imprinter,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/rnd/research)
 "oqS" = (
@@ -76738,7 +76737,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -76852,7 +76851,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/swo/quarters)
 "oum" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -76893,7 +76892,7 @@
 /obj/structure/sign/faction/neotheology_cross/gold{
 	pixel_y = 32
 	},
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "churcharm1";
 	name = "Church Armory"
 	},
@@ -77343,7 +77342,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Disposals";
 	req_access = list(50,48,26)
 	},
@@ -77392,7 +77391,7 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/nadezhda/hallway/surface/section1)
 "oyI" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "oyJ" = (
@@ -77634,11 +77633,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar1";
 	name = "glass shutter"
 	},
-/obj/machinery/vending/drink_showcase,
+/obj/machinery/smartfridge/drinks,
 /turf/simulated/floor/wood/wild3,
 /area/nadezhda/crew_quarters/bar)
 "oBa" = (
@@ -77983,7 +77982,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/engineering/engine_room)
 "oEk" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -78837,7 +78836,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/construction)
 "oLQ" = (
-/obj/machinery/suit_storage_unit/medical,
+/obj/machinery/suit_cycler/medical/prepared,
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -79498,7 +79497,7 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "oSJ" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = list(50)
 	},
@@ -79571,7 +79570,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "oTe" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_interior{
+/obj/machinery/door/airlock/maintenance/interior{
 	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -80135,7 +80134,7 @@
 	},
 /area/nadezhda/maintenance/undergroundfloor1north)
 "pbx" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/hallway/surface/section1)
 "pbH" = (
@@ -80973,7 +80972,7 @@
 /area/nadezhda/hallway/main/stairwell)
 "pjw" = (
 /obj/effect/floor_decal/industrial/hatch,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "pjA" = (
@@ -81605,7 +81604,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/office)
 "ppC" = (
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(63)
 	},
 /obj/structure/cable/cyan{
@@ -81669,7 +81668,7 @@
 /area/nadezhda/medical/sleeper)
 "ppU" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section8";
 	name = "glass shutter"
 	},
@@ -82319,7 +82318,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security/armoryshop)
 "pxo" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -82766,7 +82765,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/absolutism/bioreactor)
 "pBV" = (
-/obj/machinery/autolathe/organ_fabricator,
+/obj/machinery/fabricator/replicator,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -83322,7 +83321,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/crew_quarters/plasma_tag)
 "pGr" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Lobby Access";
 	req_access = list(10)
 	},
@@ -83607,7 +83606,7 @@
 /area/nadezhda/maintenance/undergroundfloor1south)
 "pIN" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Robotics Lab";
 	req_access = list(29)
 	},
@@ -83673,7 +83672,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "pJx" = (
-/obj/machinery/door/airlock/maintenance_interior{
+/obj/machinery/door/airlock/maintenance/interior{
 	name = "Service Maintenance";
 	req_access = list(12)
 	},
@@ -84035,7 +84034,7 @@
 "pNf" = (
 /obj/effect/floor_decal/corner_techfloor_grid,
 /obj/item/towel,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 1
 	},
 /obj/structure/window/reinforced{
@@ -84362,7 +84361,7 @@
 /obj/machinery/cash_register{
 	dir = 1
 	},
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar2";
 	name = "glass shutter"
 	},
@@ -85609,7 +85608,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "qbD" = (
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	input_tag = null;
 	name = "Coolant Tank Control";
 	output_tag = null;
@@ -85649,7 +85648,7 @@
 	})
 "qcx" = (
 /obj/structure/window/reinforced,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -85704,7 +85703,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -85949,7 +85948,7 @@
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/command/meeting_room)
 "qfq" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Guild Masters Office";
 	req_access = list(19)
 	},
@@ -86063,7 +86062,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -86214,7 +86213,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -86404,7 +86403,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/substation/section2)
 "qke" = (
-/obj/machinery/autolathe/rnd/protolathe,
+/obj/machinery/fabricator/protolathe,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/rnd/research)
 "qkm" = (
@@ -86980,7 +86979,7 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/nadezhda/crew_quarters/cafeteria)
 "qpe" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -87552,7 +87551,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/dungeon/outside/burned_outpost)
 "qvn" = (
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -87564,7 +87563,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/dark/panels,
 /area/nadezhda/engineering/foyer)
 "qvu" = (
@@ -87757,7 +87756,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -87810,7 +87809,7 @@
 /area/nadezhda/command/cro)
 "qxg" = (
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -87827,7 +87826,7 @@
 	name = "shower door"
 	},
 /obj/item/soap/deluxe,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 21
 	},
 /turf/simulated/floor/tiled/cafe,
@@ -89349,7 +89348,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/dungeon/outside/abandoned_outpost)
 "qMk" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
@@ -89548,7 +89547,7 @@
 "qOe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -90090,7 +90089,7 @@
 /turf/simulated/floor/tiled/steel/danger,
 /area/nadezhda/engineering/shield_generator)
 "qTB" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	name = "Fireplace  Cover"
 	},
 /obj/structure/bonfire/permanent,
@@ -90383,7 +90382,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "qVY" = (
 /obj/structure/lattice,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /obj/structure/bonfire/permanent,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -90437,7 +90436,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development";
 	req_access = list(5)
 	},
@@ -91343,7 +91342,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -91405,7 +91404,7 @@
 /area/nadezhda/crew_quarters/botanist)
 "reM" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -91507,7 +91506,7 @@
 /turf/simulated/floor/beach/water/shallow,
 /area/nadezhda/outside/forest)
 "rfx" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	id_tag = "BrigFoyer";
 	layer = 2.8;
 	name = "Brig";
@@ -92122,7 +92121,7 @@
 /turf/simulated/floor/beach/water/jungledeep,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "rmf" = (
-/obj/machinery/shower,
+/obj/structure/hygiene/shower,
 /obj/structure/railing/grey{
 	dir = 1;
 	pixel_y = 10
@@ -92420,7 +92419,7 @@
 /area/nadezhda/dungeon/outside/abandoned_outpost)
 "roS" = (
 /obj/structure/window/reinforced,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -92654,7 +92653,7 @@
 /turf/simulated/floor/asteroid/dirt/mud,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "rrj" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance{
 	name = "Residential District Maintenance"
@@ -92695,7 +92694,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "rrw" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "rrx" = (
@@ -92894,7 +92893,7 @@
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/nadezhda/crew_quarters/barbackroom)
 "rtf" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -93351,7 +93350,7 @@
 /obj/random/cloth/under,
 /obj/random/cloth/under,
 /obj/random/cloth/under/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "rxu" = (
@@ -93393,7 +93392,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/security/prisoncells)
 "rxU" = (
-/obj/machinery/porta_turret/gate,
+/obj/machinery/porta_turret/stationary,
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/nadezhda/security/maingate{
 	name = "\improper Outdoors - Pad"
@@ -93837,7 +93836,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/pros/prep)
 "rBT" = (
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -94135,7 +94134,7 @@
 /area/nadezhda/outside/forest)
 "rEa" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
@@ -94283,7 +94282,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/pros/shuttle)
 "rFF" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/crew_quarters/sleep/cryo2)
@@ -94394,7 +94393,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/medical/psych)
 "rGF" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	id_tag = "shuttle_hatch_bolts";
 	name = "Shuttle Hatch";
 	req_access = list(1,19,80)
@@ -94786,7 +94785,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/fo)
 "rKH" = (
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/command/gmaster)
 "rKL" = (
@@ -95090,7 +95089,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "rOa" = (
-/obj/machinery/suit_storage_unit/nt/custodian,
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters/janitor)
 "rOh" = (
@@ -95146,7 +95144,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "rOH" = (
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(63)
 	},
 /obj/structure/cable/green{
@@ -95526,7 +95524,7 @@
 /turf/simulated/floor/carpet/sblucarpet,
 /area/nadezhda/crew_quarters/barquarters)
 "rRM" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	id_tag = "BrigFoyer";
 	layer = 2.8;
 	name = "High Risk Holding";
@@ -96005,7 +96003,7 @@
 /area/nadezhda/outside/forest)
 "rWj" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section4";
 	name = "glass shutter"
 	},
@@ -96299,7 +96297,7 @@
 	dir = 10
 	},
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar2";
 	name = "glass shutter"
 	},
@@ -96531,7 +96529,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "saR" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/command/bridgebar)
@@ -96741,7 +96739,7 @@
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "sds" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/nadezhda/engineering/engine_room)
 "sdx" = (
@@ -97750,7 +97748,7 @@
 "smF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/guild)
 "smH" = (
@@ -97922,7 +97920,7 @@
 /area/nadezhda/command/bridge)
 "soz" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -98293,7 +98291,7 @@
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/outside/meadow)
 "ssB" = (
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_perforated,
@@ -98317,7 +98315,7 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/absolutism/bioreactor)
 "ssR" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Robotics Lab";
 	req_access = list(29)
 	},
@@ -98664,7 +98662,7 @@
 	name = "\improper Upper Research Hallway"
 	})
 "swf" = (
-/obj/machinery/door/airlock/maintenance_medical{
+/obj/machinery/door/airlock/maintenance/medical{
 	name = "Soteria Maintenance";
 	req_access = list(5)
 	},
@@ -99021,7 +99019,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters)
 "szE" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	name = "Fireplace  Cover"
 	},
 /obj/structure/bonfire/permanent,
@@ -99533,7 +99531,7 @@
 "sHC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/catwalk,
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -99557,7 +99555,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "sHY" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -99698,7 +99696,7 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/nadezhda/command/cro)
 "sIR" = (
-/obj/machinery/autolathe/industrial,
+/obj/machinery/fabricator/industrial,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/nadezhda/engineering/workshop)
 "sIV" = (
@@ -100075,7 +100073,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "sMI" = (
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "buffet";
 	name = "buffet";
 	pixel_y = 0
@@ -100111,7 +100109,7 @@
 "sNb" = (
 /obj/structure/rack,
 /obj/random/lowkeyrandom/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "sNe" = (
@@ -100786,7 +100784,7 @@
 /turf/simulated/floor/carpet/sblucarpet,
 /area/nadezhda/crew_quarters/barbackroom)
 "sTl" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Expedition prep";
 	req_access = list(5)
 	},
@@ -101481,7 +101479,7 @@
 	name = "shower door"
 	},
 /obj/structure/curtain/open,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -103238,7 +103236,7 @@
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/rnd/server)
 "trH" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
@@ -103361,7 +103359,7 @@
 /turf/simulated/wall,
 /area/nadezhda/crew_quarters/hydroponics)
 "ttj" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway";
 	req_access = list(10)
 	},
@@ -103991,7 +103989,7 @@
 /turf/simulated/floor/beach/water/jungledeep,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "tyJ" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -104296,7 +104294,7 @@
 /area/turret_protected/ai_upload)
 "tBF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development Teleporter Testing";
 	req_access = list(5)
 	},
@@ -104435,7 +104433,7 @@
 "tCW" = (
 /obj/random/scrap/dense_weighted,
 /obj/effect/spider/stickyweb,
-/obj/machinery/door/airlock/glass/open,
+/obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "tDh" = (
@@ -104510,7 +104508,7 @@
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/outside/forest)
 "tEe" = (
-/obj/machinery/smartfridge/kitchen/church/public,
+/obj/machinery/smartfridge/foods,
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "tEg" = (
@@ -104945,7 +104943,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/security/tactical_blackshield)
 "tIE" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway";
 	req_access = list(10)
 	},
@@ -105116,11 +105114,11 @@
 	name = "Residential District Maintenance"
 	})
 "tKe" = (
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/rnd/research)
 "tKg" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway";
 	req_access = list(10)
 	},
@@ -105651,7 +105649,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "tPA" = (
-/obj/machinery/door/airlock/maintenance_command,
+/obj/machinery/door/airlock/maintenance/command,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/command/panic_room)
@@ -106296,7 +106294,7 @@
 /area/nadezhda/quartermaster/miningdock)
 "tXC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/general_air_control/large_tank_control{
+/obj/machinery/computer/air_control{
 	input_tag = null;
 	name = "Coolant Tank Control";
 	output_tag = null;
@@ -106996,7 +106994,7 @@
 "ueh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/microwave/burnbarrel,
+
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1east)
@@ -107010,7 +107008,7 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "uek" = (
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Mining Prep";
 	req_access = list(50)
 	},
@@ -107835,7 +107833,7 @@
 /area/nadezhda/outside/forest)
 "umR" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -108671,7 +108669,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "uuD" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway";
 	req_access = list(10)
 	},
@@ -108783,7 +108781,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "uvS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Disposals";
 	req_access = list(50,48,26)
 	},
@@ -108877,7 +108875,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel/gray_perforated,
@@ -109123,7 +109121,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development Teleporter Testing";
 	req_access = list(5)
 	},
@@ -109695,7 +109693,7 @@
 	},
 /area/nadezhda/security/vacantoffice2)
 "uCM" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -109794,7 +109792,7 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/engineering/engine_room)
 "uEg" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Post";
 	req_access = list(1)
 	},
@@ -109981,7 +109979,7 @@
 /area/nadezhda/medical/sleeper)
 "uFs" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/multiz/ladder,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/guild)
@@ -110131,7 +110129,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters/techshop)
 "uGW" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -110259,7 +110257,7 @@
 /turf/simulated/floor/plating,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "uIc" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -110324,7 +110322,7 @@
 /area/shuttle/rocinante_shuttle_area)
 "uIC" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -111029,7 +111027,7 @@
 /turf/simulated/wall/r_wall,
 /area/nadezhda/engineering/engine_room)
 "uPC" = (
-/obj/machinery/suit_storage_unit/security,
+/obj/machinery/suit_cycler/security/prepared,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/security/tactical)
 "uPD" = (
@@ -111055,7 +111053,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "uPP" = (
-/obj/machinery/microwave/burnbarrel,
+
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "uPQ" = (
@@ -111085,7 +111083,7 @@
 	},
 /area/nadezhda/maintenance/undergroundfloor1north)
 "uQb" = (
-/obj/machinery/door/airlock/maintenance_interior{
+/obj/machinery/door/airlock/maintenance/interior{
 	name = "Airlock"
 	},
 /obj/random/traps/low_chance,
@@ -111651,7 +111649,7 @@
 /obj/machinery/door/window/southleft{
 	name = "shower door"
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 8;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -111855,7 +111853,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "uXx" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -112306,7 +112304,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "vbt" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development";
 	req_access = list(5)
 	},
@@ -112619,7 +112617,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/medical/genetics)
 "vfx" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/glass/command{
 	name = "Bridge";
 	req_access = list(19)
 	},
@@ -113242,7 +113240,7 @@
 	},
 /obj/structure/table/marble,
 /obj/item/ashtray,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar2";
 	name = "glass shutter"
 	},
@@ -113453,7 +113451,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Hallway";
 	req_access = list(10)
 	},
@@ -113625,7 +113623,7 @@
 /area/nadezhda/crew_quarters/plasma_tag)
 "vov" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower";
 	pixel_x = 0;
@@ -113729,7 +113727,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/security/barracks)
 "vpP" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -113916,7 +113914,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/command/panic_room)
 "vrS" = (
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -114153,7 +114151,7 @@
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "vuf" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -114657,7 +114655,7 @@
 	dir = 8;
 	icon_state = "pipe-s"
 	},
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	id_tag = "medbay exit";
 	name = "Medbay";
 	req_access = newlist();
@@ -115141,7 +115139,7 @@
 /area/nadezhda/crew_quarters/plasma_tag)
 "vCR" = (
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "buffet";
 	name = "buffet";
 	pixel_y = 0
@@ -115150,7 +115148,7 @@
 /area/nadezhda/crew_quarters/kitchen)
 "vCS" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -115326,7 +115324,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 5
 	},
-/obj/machinery/blackbox_recorder,
+/obj/machinery/design_database,
 /turf/simulated/floor/bluegrid{
 	name = "Server Base";
 	nitrogen = 500;
@@ -115500,7 +115498,7 @@
 	name = "Checkpoint Blast Doors";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Post";
 	req_access = list(1)
 	},
@@ -115538,7 +115536,7 @@
 /area/nadezhda/security/sechall)
 "vGB" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
@@ -116363,7 +116361,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "vOB" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Prep Room";
 	req_access = list(1)
 	},
@@ -116503,7 +116501,7 @@
 /area/nadezhda/security/sechall)
 "vPO" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_security{
+/obj/machinery/door/airlock/maintenance/security{
 	req_access = list(1)
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -116656,7 +116654,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/substation/section8)
 "vRq" = (
-/obj/machinery/door/airlock/maintenance_rnd{
+/obj/machinery/door/airlock/maintenance/rnd{
 	req_access = list(5)
 	},
 /obj/machinery/door/firedoor,
@@ -117019,7 +117017,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "vUF" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Research and Development";
 	req_access = list(5)
 	},
@@ -117737,7 +117735,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance_engineering,
+/obj/machinery/door/airlock/maintenance/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -117873,7 +117871,7 @@
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wcy" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	name = "Engineering Maintenance";
 	req_access = list(10)
 	},
@@ -118288,7 +118286,7 @@
 	dir = 4
 	},
 /obj/structure/curtain/open,
-/obj/machinery/shower,
+/obj/structure/hygiene/shower,
 /obj/effect/floor_decal/corner_techfloor_grid,
 /obj/machinery/door/window/southleft{
 	name = "shower door"
@@ -118401,7 +118399,7 @@
 "whD" = (
 /obj/structure/table/steel,
 /obj/random/lowkeyrandom/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "whG" = (
@@ -118657,7 +118655,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/engineering/workshop)
 "wkR" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -118963,7 +118961,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/security/prisoncells)
 "wnd" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/crew_quarters/techshop)
 "wne" = (
@@ -119973,7 +119971,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/lab)
 "wvN" = (
-/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/suit_cycler/generic/prepared,
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/skyyard)
 "wvR" = (
@@ -120042,7 +120040,7 @@
 /obj/structure/rack,
 /obj/random/cloth/under/low_chance,
 /obj/random/cloth/under/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wwT" = (
@@ -120567,7 +120565,7 @@
 	dir = 1
 	},
 /obj/structure/curtain/open/shower,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel/gray_perforated,
@@ -120578,7 +120576,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wBj" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/multiz/ladder/up,
+/obj/structure/ladder,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/nadezhda/maintenance{
@@ -121051,7 +121049,7 @@
 /turf/simulated/floor/asteroid/dirt,
 /area/nadezhda/outside/dcave)
 "wFA" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Robotics Lab";
 	req_access = list(29)
 	},
@@ -121130,7 +121128,7 @@
 /obj/random/cloth/masks/low_chance,
 /obj/random/cloth/head/low_chance,
 /obj/random/cloth/head/low_chance,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wGn" = (
@@ -121160,7 +121158,7 @@
 /area/nadezhda/security/tactical_blackshield)
 "wGz" = (
 /obj/structure/wall_frame,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "section6";
 	name = "glass shutter"
 	},
@@ -121268,7 +121266,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wHO" = (
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	name = "Soteria Lockerooms";
 	req_access = list(5)
 	},
@@ -121669,7 +121667,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/meadow)
 "wMh" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -121718,7 +121716,7 @@
 /area/nadezhda/outside/forest)
 "wMK" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
@@ -121732,7 +121730,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass_medical{
+/obj/machinery/door/airlock/glass/medical{
 	name = "Organ Laboratory";
 	req_access = list(5)
 	},
@@ -121947,7 +121945,7 @@
 /turf/simulated/open,
 /area/colony)
 "wPH" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "wQa" = (
@@ -122143,7 +122141,7 @@
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/rnd/rbreakroom)
 "wSo" = (
-/obj/machinery/door/airlock/maintenance_common{
+/obj/machinery/door/airlock/maintenance/common{
 	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -122650,7 +122648,7 @@
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/nadezhda/medical/sleeper)
 "wXx" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Barracks";
 	req_access = list(1)
 	},
@@ -122772,7 +122770,7 @@
 /turf/simulated/floor/beach/sand,
 /area/nadezhda/outside/forest)
 "wYI" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "wYP" = (
@@ -122814,7 +122812,7 @@
 /area/nadezhda/command/swo/quarters)
 "wYZ" = (
 /obj/effect/floor_decal/corner_techfloor_grid,
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -123080,7 +123078,7 @@
 /turf/unsimulated/mineral,
 /area/nadezhda/dungeon/outside/trashcave)
 "xbF" = (
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "AISHIELD";
 	name = "Shield cover"
 	},
@@ -123179,7 +123177,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/atmos/surface)
 "xcV" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering";
 	req_access = list(10)
 	},
@@ -123618,7 +123616,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/crew_quarters/techshop)
 "xhc" = (
-/obj/machinery/door/airlock/maintenance_cargo{
+/obj/machinery/door/airlock/maintenance/cargo{
 	name = "Cargo Maintenance";
 	req_access = list(50)
 	},
@@ -123789,7 +123787,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "Robotics Lab";
 	req_access = list(29)
 	},
@@ -124021,7 +124019,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/absolutism/bioreactor)
 "xlP" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Security Post";
 	req_access = list(1)
 	},
@@ -124442,7 +124440,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/marble,
-/obj/machinery/door/blast/shutters/glass{
+/obj/machinery/door/blast/shutters{
 	id = "bar1";
 	name = "glass shutter"
 	},
@@ -124942,7 +124940,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/quartermaster/miningdock)
 "xtc" = (
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
@@ -125294,7 +125292,7 @@
 /area/nadezhda/maintenance/undergroundfloor1west)
 "xxs" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/autolathe,
+/obj/machinery/fabricator,
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security)
@@ -125352,7 +125350,7 @@
 	},
 /area/nadezhda/hallway/main/stairwell)
 "xyc" = (
-/obj/machinery/door/airlock/maintenance_medical,
+/obj/machinery/door/airlock/maintenance/medical,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "xyf" = (
@@ -125510,7 +125508,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "xAb" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -125696,7 +125694,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "xBY" = (
-/obj/machinery/door/airlock/maintenance_engineering{
+/obj/machinery/door/airlock/maintenance/engineering{
 	req_access = list(24,10)
 	},
 /obj/machinery/door/firedoor,
@@ -125849,7 +125847,7 @@
 /turf/exterior/wall,
 /area/nadezhda/hallway/main/stairwell)
 "xCX" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/techfloor,
@@ -126080,7 +126078,7 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/meeting_room)
 "xEY" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Lobby Access";
 	req_access = list(10)
 	},
@@ -126098,7 +126096,7 @@
 /area/nadezhda/engineering/workshop)
 "xEZ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/glass/research{
 	name = "SI Solar Outpost";
 	req_access = list(5)
 	},
@@ -126125,7 +126123,7 @@
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/hallway/surface/section1)
 "xFh" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/glass/engineering{
 	name = "Engineering Lobby Access";
 	req_access = list(10)
 	},
@@ -126139,7 +126137,7 @@
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "xFk" = (
-/obj/machinery/autolathe/artist_bench,
+/obj/machinery/fabricator/textile,
 /obj/item/stack/material/glass/random,
 /obj/item/stack/material/glass/random,
 /obj/item/stack/material/plastic/random,
@@ -126242,7 +126240,7 @@
 /obj/machinery/door/window/southleft{
 	name = "shower door"
 	},
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	pixel_y = 21
 	},
 /turf/simulated/floor/tiled/cafe,
@@ -126301,7 +126299,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "xGn" = (
-/obj/machinery/microwave/burnbarrel,
+
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "xGo" = (
@@ -126717,7 +126715,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "xKT" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/maintenance/undergroundfloor1south)
@@ -127056,7 +127054,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/glass/mining{
 	name = "Cargo Bay";
 	req_access = list(50,48,26)
 	},
@@ -127273,7 +127271,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/nadezhda/engineering/workshop)
 "xPy" = (
-/obj/machinery/shower{
+/obj/structure/hygiene/shower{
 	dir = 4;
 	icon_state = "shower"
 	},
@@ -127302,7 +127300,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/medical/cryo)
 "xPN" = (
-/obj/machinery/door/airlock/maintenance_common,
+/obj/machinery/door/airlock/maintenance/common,
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -128410,7 +128408,7 @@
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "yao" = (
-/obj/machinery/door/airlock/maintenance_interior{
+/obj/machinery/door/airlock/maintenance/interior{
 	name = "Service Maintenance"
 	},
 /turf/simulated/floor/plating/under,
@@ -128657,7 +128655,7 @@
 /area/nadezhda/security/armory_blackshield)
 "ydH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_interior,
+/obj/machinery/door/airlock/maintenance/interior,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/hallway/side/f2section1)
 "ydK" = (
@@ -128985,7 +128983,7 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/nadezhda/rnd/xenobiology)
 "yhO" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/glass/security{
 	name = "Blackshield";
 	req_access = list(1)
 	},
@@ -129065,7 +129063,7 @@
 /area/nadezhda/maintenance/undergroundfloor1north)
 "yim" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/suit_storage_unit/rad_unit,
+/obj/machinery/suit_cycler/engineering/prepared,
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/rnd/xenobiology/ameridian)

@@ -266,42 +266,42 @@
 
 /* NEW AIRLOCKS BLOCK */
 
-/obj/machinery/door/airlock/maintenance_cargo
+/obj/machinery/door/airlock/maintenance/cargo
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_cargo.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_cargo
 
-/obj/machinery/door/airlock/maintenance_command
+/obj/machinery/door/airlock/maintenance/command
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_command.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_command
 
-/obj/machinery/door/airlock/maintenance_engineering
+/obj/machinery/door/airlock/maintenance/engineering
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_engi.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_engi
 
-/obj/machinery/door/airlock/maintenance_medical
+/obj/machinery/door/airlock/maintenance/medical
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_med.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_med
 
-/obj/machinery/door/airlock/maintenance_rnd
+/obj/machinery/door/airlock/maintenance/rnd
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_rnd.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_rnd
 
-/obj/machinery/door/airlock/maintenance_security
+/obj/machinery/door/airlock/maintenance/security
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_sec.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_sec
 
-/obj/machinery/door/airlock/maintenance_common
+/obj/machinery/door/airlock/maintenance/common
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_common.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_common
 
-/obj/machinery/door/airlock/maintenance_interior
+/obj/machinery/door/airlock/maintenance/interior
 	name = "Maintenance Hatch"
 	icon = 'icons/obj/doors/Doormaint_int.dmi'
 	frame_type = /obj/structure/door_assembly/door_assembly_maint_int
