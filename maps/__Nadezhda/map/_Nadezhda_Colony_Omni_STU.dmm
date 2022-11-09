@@ -999,7 +999,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/rnd/docking)
 "ait" = (
-/obj/item/modular_computer/console/preset/civilian/professional{
+/obj/machinery/computer/modular/preset/civilian{
 	dir = 4;
 	pixel_x = -4
 	},
@@ -1177,7 +1177,7 @@
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/nadezhda/medical/sleeper)
 "akk" = (
-/obj/item/modular_computer/console/preset/command,
+/obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/fo)
 "akl" = (
@@ -1944,7 +1944,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/rnd/rbreakroom)
 "atB" = (
-/obj/item/modular_computer/console/preset/security/records{
+/obj/machinery/computer/modular/preset/security{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -2443,7 +2443,7 @@
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "azh" = (
-/obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/computer/modular/preset/civilian,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/crew_quarters/plasma_tag)
 "azp" = (
@@ -3010,7 +3010,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "aFu" = (
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 1
 	},
 /obj/machinery/light,
@@ -4590,7 +4590,7 @@
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/machinery/alarm{
@@ -5238,7 +5238,7 @@
 /turf/simulated/open,
 /area/turret_protected/ai)
 "bbs" = (
-/obj/item/modular_computer/console/preset/engineering/alarms{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/machinery/floor_light,
@@ -5473,7 +5473,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "bdj" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/machinery/light,
@@ -5737,7 +5737,7 @@
 	})
 "bfA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
-/obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/computer/modular/preset/civilian,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -7544,7 +7544,7 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/hallway/surface/section1)
 "bwK" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/structure/window/basic{
@@ -16395,7 +16395,7 @@
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/bioreactor)
 "djt" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/structure/window/basic{
@@ -16457,7 +16457,7 @@
 /area/nadezhda/pros/prep)
 "djV" = (
 /obj/machinery/atmospherics/unary/vent_pump,
-/obj/item/modular_computer/console/preset/crew_cams/camera,
+/obj/machinery/computer/modular/preset/civilian,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -22416,7 +22416,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/command/teleporter)
 "eqx" = (
-/obj/item/modular_computer/console/preset/command/access{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
@@ -27194,7 +27194,7 @@
 /area/nadezhda/maintenance/undergroundfloor1south)
 "fkF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering/shield{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/danger,
@@ -27309,7 +27309,7 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/rocinante_shuttle_area)
 "fmy" = (
-/obj/item/modular_computer/console/preset/security/records,
+/obj/machinery/computer/modular/preset/security,
 /obj/machinery/camera/network/security,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security/sechall)
@@ -32331,7 +32331,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/absolutism/skyyard)
 "ggy" = (
-/obj/item/modular_computer/console/preset/trade,
+/obj/machinery/computer/modular/preset/merchant,
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/quartermaster/hangarsupply)
 "ggB" = (
@@ -34938,7 +34938,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/crew_quarters/pool)
 "gFy" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/structure/window/basic{
@@ -34974,7 +34974,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/item/modular_computer/console/preset/security/camera,
+/obj/machinery/computer/modular/preset/security,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate{
 	name = "\improper Outdoors - Pad"
@@ -35169,7 +35169,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "gIq" = (
-/obj/item/modular_computer/console/preset/engineering,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/bridge)
 "gIu" = (
@@ -35460,7 +35460,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "gKI" = (
-/obj/item/modular_computer/console/preset/security/records{
+/obj/machinery/computer/modular/preset/security{
 	dir = 8
 	},
 /obj/machinery/button/remote/blast_door{
@@ -41850,7 +41850,7 @@
 /area/nadezhda/medical/sleeper)
 "hYp" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/item/modular_computer/console/preset/civilian{
+/obj/machinery/computer/modular/preset/civilian{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -45107,7 +45107,7 @@
 	},
 /area/nadezhda/maintenance/undergroundfloor1south)
 "iFq" = (
-/obj/item/modular_computer/console/preset/security/camera{
+/obj/machinery/computer/modular/preset/security{
 	dir = 4;
 	pixel_x = -5
 	},
@@ -46817,7 +46817,7 @@
 /turf/simulated/floor/plating/under,
 /area/turret_protected/ai)
 "iVK" = (
-/obj/item/modular_computer/console/preset/medical/records{
+/obj/machinery/computer/modular/preset/medical{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -47782,7 +47782,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "jeJ" = (
-/obj/item/modular_computer/console/preset/medical/monitor{
+/obj/machinery/computer/modular/preset/medical{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -51864,7 +51864,7 @@
 	name = "Science Expedition prep"
 	})
 "jSi" = (
-/obj/item/modular_computer/console/preset/engineering,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/dark/panels,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "jSp" = (
@@ -51993,7 +51993,7 @@
 /turf/simulated/floor/carpet/sblucarpet,
 /area/nadezhda/crew_quarters/barquarters)
 "jTU" = (
-/obj/item/modular_computer/console/preset/trade,
+/obj/machinery/computer/modular/preset/merchant,
 /turf/simulated/floor/reinforced,
 /area/nadezhda/security/nuke_storage)
 "jTV" = (
@@ -53130,7 +53130,7 @@
 /obj/structure/noticeboard/lonestar_supply{
 	pixel_x = 32
 	},
-/obj/item/modular_computer/console/preset/trade{
+/obj/machinery/computer/modular/preset/merchant{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -54455,7 +54455,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "koR" = (
-/obj/item/modular_computer/console/preset/research/sysadmin{
+/obj/machinery/computer/modular/preset/aislot/sysadmin{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purcarpet,
@@ -55804,7 +55804,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/crew_quarters/pool)
 "kCd" = (
-/obj/item/modular_computer/console/preset/security/camera,
+/obj/machinery/computer/modular/preset/security,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/nadezhda/security/tactical_blackshield)
@@ -58076,7 +58076,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/smc/quarters)
 "kXl" = (
-/obj/item/modular_computer/console/preset/command,
+/obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/command/swo/quarters)
 "kXq" = (
@@ -59146,7 +59146,7 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/command/teleporter)
 "lgB" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
 /obj/machinery/light/small{
@@ -61898,7 +61898,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "lHh" = (
-/obj/item/modular_computer/console/preset/engineering,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/nadezhda/engineering/atmos/storage)
 "lHp" = (
@@ -69004,7 +69004,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/modular_computer/console/preset/command,
+/obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/gmaster)
 "mVQ" = (
@@ -69285,7 +69285,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/security/barracks)
 "mYA" = (
-/obj/item/modular_computer/console/preset/command/access{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -70340,7 +70340,7 @@
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/outside/forest)
 "njf" = (
-/obj/item/modular_computer/console/preset/trade,
+/obj/machinery/computer/modular/preset/merchant,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/quartermaster/hangarsupply)
 "njg" = (
@@ -72665,7 +72665,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/command/gmaster)
 "nGC" = (
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
@@ -75461,7 +75461,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "ogG" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /obj/structure/window/basic{
@@ -76774,7 +76774,7 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/medical/reception)
 "otG" = (
-/obj/item/modular_computer/console/preset/medical/monitor{
+/obj/machinery/computer/modular/preset/medical{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel,
@@ -77672,7 +77672,7 @@
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "oBn" = (
-/obj/item/modular_computer/console/preset/engineering/alarms{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 4;
 	pixel_x = -5
 	},
@@ -80847,7 +80847,7 @@
 /area/nadezhda/security/armory_blackshield)
 "phw" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering/rcon,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/engineering/engine_room)
 "phC" = (
@@ -81000,7 +81000,7 @@
 /area/nadezhda/medical/cryo)
 "pjJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering/power,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/engineering/engine_room)
 "pjN" = (
@@ -81080,7 +81080,7 @@
 /area/nadezhda/crew_quarters/barquarters)
 "pkE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering/atmos,
+/obj/machinery/computer/modular/preset/engineering,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
@@ -81161,7 +81161,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/modular_computer/console/preset/engineering/alarms{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
@@ -83313,7 +83313,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
-/obj/item/modular_computer/console/preset/engineering/rcon,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/engineering/shield_generator)
 "pGo" = (
@@ -86461,7 +86461,7 @@
 /turf/simulated/floor/reinforced,
 /area/nadezhda/medical/sleeper)
 "qkJ" = (
-/obj/item/modular_computer/console/preset/security/camera{
+/obj/machinery/computer/modular/preset/security{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -86548,7 +86548,7 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/nadezhda/command/courtroom)
 "qlB" = (
-/obj/item/modular_computer/console/preset/medical/monitor{
+/obj/machinery/computer/modular/preset/medical{
 	dir = 8
 	},
 /obj/machinery/camera/network/medbay,
@@ -89566,7 +89566,7 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/medical/exam_room)
 "qOs" = (
-/obj/item/modular_computer/console/preset/security/records,
+/obj/machinery/computer/modular/preset/security,
 /obj/machinery/holoposter{
 	pixel_y = 32
 	},
@@ -91050,7 +91050,7 @@
 /turf/simulated/floor/wood/wild3,
 /area/nadezhda/command/crematorium)
 "rbK" = (
-/obj/item/modular_computer/console/preset/engineering{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/oracarpet,
@@ -91934,7 +91934,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/absolutism/vectorrooms)
 "rjZ" = (
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4;
 	pixel_x = -5
 	},
@@ -95816,7 +95816,7 @@
 /turf/simulated/floor/tiled/steel/danger,
 /area/nadezhda/command/tcommsat/computer)
 "rUw" = (
-/obj/item/modular_computer/console/preset/security/camera{
+/obj/machinery/computer/modular/preset/security{
 	dir = 4;
 	pixel_x = -5
 	},
@@ -96186,7 +96186,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "rXR" = (
-/obj/item/modular_computer/console/preset/medical/monitor{
+/obj/machinery/computer/modular/preset/medical{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -96637,7 +96637,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1east)
 "sbW" = (
-/obj/item/modular_computer/console/preset/security/camera{
+/obj/machinery/computer/modular/preset/security{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -99105,7 +99105,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/security/barracks)
 "sBa" = (
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4;
 	pixel_x = -5
 	},
@@ -99450,7 +99450,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/hallway/surface/section1)
 "sGe" = (
-/obj/item/modular_computer/console/preset/engineering/shield,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/bridge)
 "sGj" = (
@@ -102158,7 +102158,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/dungeon/outside/abandoned_solars)
 "tgG" = (
-/obj/item/modular_computer/console/preset/security/records{
+/obj/machinery/computer/modular/preset/security{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -102344,7 +102344,7 @@
 	pixel_x = 0;
 	pixel_y = -28
 	},
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -102803,7 +102803,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/maintenance/undergroundfloor1west)
 "tmw" = (
-/obj/item/modular_computer/console/preset/security/records,
+/obj/machinery/computer/modular/preset/security,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/security/detectives_office)
 "tmC" = (
@@ -103587,7 +103587,7 @@
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/tactical)
 "tvt" = (
-/obj/item/modular_computer/console/preset/security/camera{
+/obj/machinery/computer/modular/preset/security{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -107513,7 +107513,7 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cro)
 "uiD" = (
-/obj/item/modular_computer/console/preset/engineering/atmos,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/engineering/atmos/surface)
 "uiG" = (
@@ -110576,7 +110576,7 @@
 /turf/simulated/wall/r_wall,
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "uLf" = (
-/obj/item/modular_computer/console/preset/security/records{
+/obj/machinery/computer/modular/preset/security{
 	dir = 4;
 	pixel_x = -4
 	},
@@ -117448,7 +117448,7 @@
 	name = "\improper Outdoors - Pad"
 	})
 "vYj" = (
-/obj/item/modular_computer/console/preset/trade_orders,
+/obj/machinery/computer/modular/preset/supply_public,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/quartermaster/office)
 "vYl" = (
@@ -118177,7 +118177,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "wfk" = (
-/obj/item/modular_computer/console/preset/trade{
+/obj/machinery/computer/modular/preset/merchant{
 	dir = 1
 	},
 /obj/structure/noticeboard/lonestar_service{
@@ -121562,7 +121562,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/guild)
 "wKA" = (
-/obj/item/modular_computer/console/preset/security/records,
+/obj/machinery/computer/modular/preset/security,
 /turf/simulated/floor/wood,
 /area/nadezhda/security/detectives_office)
 "wKC" = (
@@ -122836,7 +122836,7 @@
 /turf/simulated/floor/tiled/steel/cyancorner,
 /area/nadezhda/hallway/side/f2section1)
 "wZd" = (
-/obj/item/modular_computer/console/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8;
 	pixel_x = -5
 	},
@@ -126850,7 +126850,7 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
 "xMj" = (
-/obj/item/modular_computer/console/preset/engineering/alarms,
+/obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/command/bridge)
 "xMk" = (
@@ -127032,7 +127032,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/modular_computer/console/preset/pointminer{
+/obj/machinery/computer/modular/preset/merchant{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -127142,7 +127142,7 @@
 /turf/simulated/wall/r_wall,
 /area/nadezhda/hallway/side/f2section1)
 "xOm" = (
-/obj/item/modular_computer/console/preset/engineering/alarms{
+/obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/brown_platform,

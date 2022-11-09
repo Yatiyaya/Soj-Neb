@@ -13,6 +13,15 @@ var/global/list/obj/item/uplink/world_uplinks = list()
 //Preferences stuff
 var/global/datum/category_collection/underwear/underwear = new()
 
+var/global/list/current_factions = list()
+var/global/list/factions_list = list()			//List of active factions.
+var/global/list/faxable_factions_list = list()	//Factions with faxes.
+var/global/list/player_factions_list = list()		//Factions with players in them. Admin factions can have players added.
+var/global/list/admin_factions_list = list()	//Factions with administrative response. All faxes to an admin faction pass through admins first, even with a primary fax.
+
+var/global/list/all_faction_items = list()
+var/global/list/individual_objectives = list()
+
 // Visual nets
 var/global/list/datum/visualnet/visual_nets = list()
 var/global/datum/visualnet/camera/cameranet = new()
@@ -56,6 +65,8 @@ var/global/list/string_slot_flags = list(
 /////Initial Building/////
 //////////////////////////
 
+
+
 /proc/get_mannequin(var/ckey)
 	if(SSatoms.atom_init_stage < INITIALIZATION_INNEW_REGULAR)
 		return
@@ -77,6 +88,17 @@ var/global/list/string_slot_flags = list(
 		if(length(instance.hotkey_keys))
 			for(var/bound_key in instance.hotkey_keys)
 				global.hotkey_keybinding_list_by_key[bound_key] += list(instance.name)
+
+	//List of factions
+//	paths = typesof(/datum/faction)-/datum/faction
+	for(var/T in subtypesof(/datum/faction))
+		var/datum/faction/F = new T()
+		global.factions_list[F.name] = F
+		if(F.faxable)
+			global.faxable_factions_list[F.name] = F
+		if(F.admin)
+			global.admin_factions_list[F.name] = F
+		//Player factions don't get loaded here since they have to be done at roundstart.
 	return 1
 
 // This is all placeholder procs for an eventual PR to change them to use decls.

@@ -29,3 +29,13 @@
 		var/obj/item/gps/L = locate() in src
 		if(L)
 			stat("Coordinates:", "[L.get_coordinates()]")
+
+/obj/item/gps/science
+	icon_state = "gps-s"
+
+/obj/item/gps/engineering
+	icon_state = "gps-e"
+
+/obj/item/gps/mining
+	icon_state = "gps-m"
+	desc = "A positioning system helpful for rescuing trapped or injured miners, keeping one on you at all times while mining might just save your life."

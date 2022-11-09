@@ -27,10 +27,10 @@ var/global/list/adminfaxes = list()	//cache for faxes that have been sent to adm
 	if(!admin_departments)
 		admin_departments = list("[global.using_map.boss_name]", "Sol Federal Police", "[global.using_map.boss_short] Supply") + global.using_map.map_admin_faxes
 	global.allfaxes += src
-	if(!destination)
-		destination = "[global.using_map.boss_name]"
-	if( !(("[department]" in global.alldepartments) || ("[department]" in admin_departments)))
-		global.alldepartments |= department
+	if(!destination) destination = global.faxable_factions_list[global.faxable_factions_list.len]
+	if( !(("[department]" in alldepartments) || ("[department]" in global.admin_factions_list)) )
+		alldepartments |= department
+
 
 /obj/machinery/photocopier/faxmachine/attackby(obj/item/O, mob/user)
 	if(istype(O, /obj/item/card/id))
@@ -100,8 +100,8 @@ var/global/list/adminfaxes = list()	//cache for faxes that have been sent to adm
 /obj/machinery/photocopier/faxmachine/OnTopic(mob/user, href_list, state)
 	if(href_list["send"])
 		if(copyitem)
-			if (destination in admin_departments)
-				send_admin_fax(user, destination)
+			if (destination in global.admin_factions_list)
+				send_admin_fax(usr, destination)
 			else
 				sendfax(destination)
 
@@ -129,7 +129,7 @@ var/global/list/adminfaxes = list()	//cache for faxes that have been sent to adm
 		return TOPIC_REFRESH
 
 	if(href_list["dept"])
-		var/desired_destination = input(user, "Which department?", "Choose a department", "") as null|anything in (global.alldepartments + admin_departments)
+		var/desired_destination = input(user, "Which department?", "Choose a department", "") as null|anything in (global.alldepartments + global.faxable_factions_list)
 		if(desired_destination && CanInteract(user, state))
 			destination = desired_destination
 		return TOPIC_REFRESH
@@ -208,28 +208,68 @@ var/global/list/adminfaxes = list()	//cache for faxes that have been sent to adm
 	global.adminfaxes += rcvdcopy
 
 	//message badmins that a fax has arrived
-	if (destination == global.using_map.boss_name)
-		message_admins(sender, "[uppertext(destination)] FAX", rcvdcopy, destination, "#006100")
-	else if (destination == "Sol Federal Police")
-		message_admins(sender, "[uppertext(destination)] FAX", rcvdcopy, destination, "#1f66a0")
-	else if (destination == "[global.using_map.boss_short] Supply")
-		message_admins(sender, "[uppertext(destination)] FAX", rcvdcopy, destination, "#5f4519")
-	else if (destination in global.using_map.map_admin_faxes)
-		message_admins(sender, "[uppertext(destination)] FAX", rcvdcopy, destination, "#510b74")
-	else
-		message_admins(sender, "[uppertext(destination)] FAX", rcvdcopy, "UNKNOWN")
+	var/datum/faction/dept = global.admin_factions_list[destination]
+	message_admins(sender, dept.fax_alert, rcvdcopy, destination, dept.darkcolor)
 
 	sendcooldown = 1800
 	sleep(50)
 	visible_message("[src] beeps, \"Message transmitted successfully.\"")
 
 
-/obj/machinery/photocopier/faxmachine/proc/message_admins(var/mob/sender, var/faxname, var/obj/item/sent, var/reply_type, font_colour="#006100")
-	var/msg = "<span class='notice'><b><font color='[font_colour]'>[faxname]: </font>[get_options_bar(sender, 2,1,1)]"
-	msg += "(<A HREF='?_src_=holder;take_ic=\ref[sender]'>TAKE</a>) (<a href='?_src_=holder;FaxReply=\ref[sender];originfax=\ref[src];replyorigin=[reply_type]'>REPLY</a>)</b>: "
-	msg += "Receiving '[sent.name]' via secure connection ... <a href='?_src_=holder;AdminFaxView=\ref[sent]'>view message</a></span>"
+/obj/machinery/photocopier/faxmachine/proc/message_admins(var/mob/sender, var/faxname, var/obj/item/sent, var/reply_faction, font_colour="#006100")
+	var/msg = "\blue <b><font color='[font_colour]'>[faxname]: </font>[key_name(sender, 1)] (<A HREF='?_src_=holder;adminplayeropts=\ref[sender]'>PP</A>) (<A HREF='?_src_=vars;Vars=\ref[sender]'>VV</A>) (<A HREF='?_src_=holder;subtlemessage=\ref[sender]'>SM</A>) ([admin_jump_link(sender, src)]) (<A HREF='?_src_=holder;secretsadmin=check_antagonist'>CA</A>) (<a href='?_src_=holder;FaxReply=\ref[sender];originfax=\ref[src];faction=[reply_faction]'>REPLY</a>)</b>: Receiving '[sent.name]' via secure connection ... <a href='?_src_=holder;AdminFaxView=\ref[sent]'>view message</a>"
 
-	for(var/client/C in global.admins)
-		if(check_rights((R_ADMIN|R_MOD),0,C))
-			to_chat(C, msg)
-			sound_to(C, 'sound/machines/dotprinter.ogg')
+	for(var/client/C in admins)
+		if((R_ADMIN & C.holder.rights) || (R_MOD & C.holder.rights))
+			to_chat(C, "[create_text_tag("fax", "FAX:", C)] [msg]")
+/*	var/faxid = export_fax(sent)		//TODO: fuckerate this
+	message_chat_admins(sender, faxname, sent, faxid, font_colour)
+
+/obj/machinery/photocopier/faxmachine/proc/export_fax(fax)
+	var faxid = "[num2text(world.realtime,12)]_[rand(10000)]"
+	if (istype(fax, /obj/item/paper))
+		var/obj/item/paper/P = fax
+		var/text = "<HTML><HEAD><TITLE>[P.name]</TITLE></HEAD><BODY>[P.info][P.stamps]</BODY></HTML>";
+		file("[config.fax_export_dir]/fax_[faxid].html") << text;
+	else if (istype(fax, /obj/item/photo))
+		var/obj/item/photo/H = fax
+		fcopy(H.img, "[config.fax_export_dir]/photo_[faxid].png")
+		var/text = "<html><head><title>[H.name]</title></head>" \
+			+ "<body style='overflow:hidden;margin:0;text-align:center'>" \
+			+ "<img src='photo_[faxid].png'>" \
+			+ "[H.scribble ? "<br>Written on the back:<br><i>[H.scribble]</i>" : ""]"\
+			+ "</body></html>"
+		file("[config.fax_export_dir]/fax_[faxid].html") << text
+	else if (istype(fax, /obj/item/paper_bundle))
+		var/obj/item/paper_bundle/B = fax
+		var/data = ""
+		for (var/page = 1, page <= B.pages.len, page++)
+			var/obj/pageobj = B.pages[page]
+			var/page_faxid = export_fax(pageobj)
+			data += "<a href='fax_[page_faxid].html'>Page [page] - [pageobj.name]</a><br>"
+		var/text = "<html><head><title>[B.name]</title></head><body>[data]</body></html>"
+		file("[config.fax_export_dir]/fax_[faxid].html") << text
+	return faxid
+
+/**
+ * Call the chat webhook to transmit a notification of an admin fax to the admin chat.
+ */
+/obj/machinery/photocopier/faxmachine/proc/message_chat_admins(var/mob/sender, var/faxname, var/obj/item/sent, var/faxid, font_colour="#006100")
+	if (config.webhook_url)
+		spawn(0)
+			var/query_string = "type=fax"
+			query_string += "&key=[url_encode(config.webhook_key)]"
+			query_string += "&faxid=[url_encode(faxid)]"
+			query_string += "&color=[url_encode(font_colour)]"
+			query_string += "&faxname=[url_encode(faxname)]"
+			query_string += "&sendername=[url_encode(sender.name)]"
+			query_string += "&sentname=[url_encode(sent.name)]"
+			world.Export("[config.webhook_url]?[query_string]")
+
+//
+// Overrides/additions to stock defines go here, as well as hooks. Sort them by
+// the object they are overriding. So all /mob/living together, etc.
+//
+/datum/configuration
+	var/fax_export_dir = "data/faxes"	// Directory in which to write exported fax HTML files.
+*/
