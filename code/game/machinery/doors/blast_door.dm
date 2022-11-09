@@ -328,7 +328,7 @@
 
 // SUBTYPE: Shutters
 // Nicer looking, and also weaker, shutters. Found in kitchen and similar areas.
-/obj/machinery/door/blast/shutters
+/obj/machinery/door/blast/shutters	
 	name = "shutters"
 	desc = "A set of mechanized shutters made of a pretty sturdy material."
 

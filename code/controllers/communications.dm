@@ -113,13 +113,22 @@ var/global/const/ENT_FREQ	= 1461
 
 // department channels
 var/global/const/PUB_FREQ = 1459
+var/global/const/NT_FREQ = 1364
 var/global/const/SEC_FREQ = 1359
-var/global/const/ENG_FREQ = 1357
+var/global/const/BLS_FREQ = 1362
+var/global/const/MAR_FREQ = 1363
+var/global/const/ENG_FREQ = 1337 //very leet
 var/global/const/MED_FREQ = 1355
 var/global/const/SCI_FREQ = 1351
 var/global/const/SRV_FREQ = 1349
 var/global/const/SUP_FREQ = 1347
-var/global/const/EXP_FREQ = 1361
+var/global/const/PRO_FREQ = 1345
+
+//Plasma tag!
+var/const/PT_BT_FREQ =1549
+var/const/PT_RT_FREQ =1551
+var/const/PT_YT_FREQ =1553
+var/const/PT_GT_FREQ =1557
 
 // internal department channels
 var/global/const/MED_I_FREQ = 1485
@@ -137,24 +146,28 @@ var/global/const/AIRLOCK_FREQ      = 1305 // Used by airlocks and buttons contro
 var/global/const/SHUTTLE_AIR_FREQ  = 1331 // Used by shuttles and shuttle-related atmos systems.
 var/global/const/EXTERNAL_AIR_FREQ = 1381 // Used by some external airlocks.
 
-var/global/list/radiochannels = list(
+var/list/radiochannels = list(
 	"Common"		= PUB_FREQ,
 	"Science"		= SCI_FREQ,
 	"Command"		= COMM_FREQ,
 	"Medical"		= MED_FREQ,
 	"Engineering"	= ENG_FREQ,
 	"Security" 		= SEC_FREQ,
-	"Response Team" = ERT_FREQ,
+	"Blackshield"   = BLS_FREQ,
+	"Marshal"      = MAR_FREQ,
 	"Special Ops" 	= DTH_FREQ,
 	"Mercenary" 	= SYND_FREQ,
-	"Raider"		= RAID_FREQ,
-	"Exploration"	= EXP_FREQ,
 	"Supply" 		= SUP_FREQ,
+	"Church"		= NT_FREQ,
 	"Service" 		= SRV_FREQ,
 	"AI Private"	= AI_FREQ,
-	"Entertainment" = ENT_FREQ,
 	"Medical(I)"	= MED_I_FREQ,
-	"Security(I)"	= SEC_I_FREQ
+	"Security(I)"	= SEC_I_FREQ,
+	"Prospector"	= PRO_FREQ,
+	"Plasmatag B"	= PT_BT_FREQ,
+	"Plasmatag R"	= PT_RT_FREQ,
+	"Plasmatag Y"	= PT_YT_FREQ,
+	"Plasmatag G"	= PT_GT_FREQ,
 )
 
 var/global/list/channel_color_presets = list(
@@ -180,7 +193,8 @@ var/global/list/CENT_FREQS = list(ERT_FREQ, DTH_FREQ)
 var/global/list/ANTAG_FREQS = list(SYND_FREQ, RAID_FREQ)
 
 //Department channels, arranged lexically
-var/global/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ, EXP_FREQ, ENT_FREQ)
+var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, NT_FREQ, PRO_FREQ, SEC_FREQ, BLS_FREQ, MAR_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ)
+
 
 #define TRANSMISSION_WIRE	0
 #define TRANSMISSION_RADIO	1
@@ -189,7 +203,7 @@ var/global/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FR
 	// Antags!
 	if (frequency in ANTAG_FREQS)
 		return "syndradio"
-	// centcomm channels (deathsquid and ert)
+	// centcom channels
 	if(frequency in CENT_FREQS)
 		return "centradio"
 	// command channel
@@ -201,22 +215,35 @@ var/global/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FR
 	// department radio formatting (poorly optimized, ugh)
 	if(frequency == SEC_FREQ)
 		return "secradio"
+	if(frequency == BLS_FREQ)
+		return "bsradio"
+	if(frequency == MAR_FREQ)
+		return "secradio"
 	if (frequency == ENG_FREQ)
 		return "engradio"
 	if(frequency == SCI_FREQ)
 		return "sciradio"
 	if(frequency == MED_FREQ)
 		return "medradio"
-	if(frequency == EXP_FREQ) // exploration
-		return "EXPradio"
 	if(frequency == SUP_FREQ) // cargo
 		return "supradio"
 	if(frequency == SRV_FREQ) // service
 		return "srvradio"
-	if(frequency == ENT_FREQ) //entertainment
-		return "entradio"
+	if(frequency == NT_FREQ)
+		return "ntradio"
+	if(frequency == PRO_FREQ)
+		return "proradio"
 	if(frequency in DEPT_FREQS)
 		return "deptradio"
+//Plasma tag radio colours are all the same.
+	if(frequency in PT_BT_FREQ)
+		return "syndradio"
+	if(frequency in PT_RT_FREQ)
+		return "syndradio"
+	if(frequency in PT_YT_FREQ)
+		return "syndradio"
+	if(frequency in PT_GT_FREQ)
+		return "syndradio"
 
 	return "radio"
 
